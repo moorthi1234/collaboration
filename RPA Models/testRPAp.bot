@@ -36,8 +36,11 @@
                 "nodeName": "OpenTask",
                 "outgoing": "SequenceFlow_icc0i0",
                 "incoming": "SequenceFlow_1ogv6rz",
-                "businessProp": {"applicationName": "wordpad"},
-                "name": "Open Application",
+                "businessProp": {
+                    "name": "Open wordpad",
+                    "applicationName": "wordpad"
+                },
+                "name": "Open wordpad",
                 "tasktCommandName": "StartProcessCommand",
                 "id": "OpenTask_v6kxy",
                 "type": "rpa:openTask",
@@ -58,30 +61,6 @@
             "BPMNPlane": {
                 "BPMNShape": [
                     {
-                        "bpmnElement": "StartEvent_3ed3q8",
-                        "Bounds": {
-                            "cx": 163.0000016540289,
-                            "cy": 138.0000055584312,
-                            "x": 111.00000165402889,
-                            "width": 104,
-                            "y": 117.02000601619488,
-                            "height": 41.959999084472656
-                        },
-                        "id": "StartEvent_3ed3q8_ve"
-                    },
-                    {
-                        "bpmnElement": "OpenTask_v6kxy",
-                        "Bounds": {
-                            "cx": 257.0000022190809,
-                            "cy": 257.00000734657056,
-                            "x": 148.9200003880262,
-                            "width": 216.16000366210938,
-                            "y": 237.02000780433423,
-                            "height": 39.959999084472656
-                        },
-                        "id": "OpenTask_v6kxy_ve"
-                    },
-                    {
                         "bpmnElement": "EndEvent_xpcn2f",
                         "Bounds": {
                             "cx": 303.00000374019146,
@@ -92,6 +71,30 @@
                             "height": 41.959999084472656
                         },
                         "id": "EndEvent_xpcn2f_ve"
+                    },
+                    {
+                        "bpmnElement": "OpenTask_v6kxy",
+                        "Bounds": {
+                            "cx": 257.0000022190809,
+                            "cy": 255.43750734657056,
+                            "x": 148.9200003880262,
+                            "width": 216.16000366210938,
+                            "y": 237.02000780433423,
+                            "height": 43.084999084472656
+                        },
+                        "id": "OpenTask_v6kxy_ve"
+                    },
+                    {
+                        "bpmnElement": "StartEvent_3ed3q8",
+                        "Bounds": {
+                            "cx": 163.0000016540289,
+                            "cy": 138.0000055584312,
+                            "x": 111.00000165402889,
+                            "width": 104,
+                            "y": 117.02000601619488,
+                            "height": 41.959999084472656
+                        },
+                        "id": "StartEvent_3ed3q8_ve"
                     }
                 ],
                 "BPMNEdge": [
@@ -147,15 +150,18 @@
         "collaboration": {}
     },
     "description": "",
-    "uiModelerVersion": "7.0.4",
+    "uiModelerVersion": "7.0.5",
     "isValidProcess": true,
     "responseMessage": "",
     "tasktActions": [{
         "nodeName": "OpenTask",
         "outgoing": "SequenceFlow_icc0i0",
         "incoming": "SequenceFlow_1ogv6rz",
-        "businessProp": {"applicationName": "wordpad"},
-        "name": "Open Application",
+        "businessProp": {
+            "name": "Open wordpad",
+            "applicationName": "wordpad"
+        },
+        "name": "Open wordpad",
         "tasktCommandName": "StartProcessCommand",
         "id": "OpenTask_v6kxy",
         "type": "rpa:openTask",

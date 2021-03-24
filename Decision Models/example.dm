@@ -1,7 +1,7 @@
 {
     "decisiontable": {
         "modifiedUserName": "policyadmin",
-        "lastModifiedDate": "2021-03-24T16:18:33",
+        "lastModifiedDate": "2021-03-24T16:19:57",
         "displayName": "New Decision Table",
         "hitPolicy": "UNIQUE",
         "description": "Design a new Decision Table by adding inputs and outputs.",
@@ -59,10 +59,7 @@
         "output": [{
             "primitive": false,
             "itemDefinitionId": "sample.asg.test.output.salary",
-            "outputValues": {
-                "domainName": null,
-                "text": null
-            },
+            "outputValues": null,
             "groupLabel": "output",
             "description": null,
             "defaultOutputEntry": {
@@ -72,7 +69,7 @@
                 "text": null
             },
             "allowedAttributes": [],
-            "label": "salary",
+            "label": null,
             "collection": false,
             "parentId": "sample.asg.test.output",
             "explicit": true,
@@ -88,10 +85,7 @@
             "description": null,
             "allowedAttributes": [
                 {
-                    "allowedValues": {
-                        "domainName": null,
-                        "text": null
-                    },
+                    "allowedValues": null,
                     "domainReference": null,
                     "lastModifiedDate": null,
                     "externalSourceDetails": null,
@@ -100,7 +94,7 @@
                     "isCollection": false,
                     "description": null,
                     "collection": false,
-                    "parentId": "sample.asg.test.input",
+                    "parentId": null,
                     "typeLanguage": "http://www.omg.org/spec/DMN/20180521/FEEL/",
                     "itemComponent": [],
                     "namespace": null,
@@ -110,10 +104,7 @@
                     "typeRef": "string"
                 },
                 {
-                    "allowedValues": {
-                        "domainName": null,
-                        "text": null
-                    },
+                    "allowedValues": null,
                     "domainReference": null,
                     "lastModifiedDate": null,
                     "externalSourceDetails": null,
@@ -122,7 +113,7 @@
                     "isCollection": false,
                     "description": null,
                     "collection": false,
-                    "parentId": "sample.asg.test.input",
+                    "parentId": null,
                     "typeLanguage": "http://www.omg.org/spec/DMN/20180521/FEEL/",
                     "itemComponent": [],
                     "namespace": null,
