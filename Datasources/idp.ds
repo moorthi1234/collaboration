@@ -21,8 +21,8 @@
                 "sid": ""
             },
             "password": "root",
-            "databaseName": "idp",
-            "jdbcString": "jdbc:postgresql://localhost:5432/idp",
+            "databaseName": "employee",
+            "jdbcString": "jdbc:postgresql://localhost:5432/employee",
             "vendor": "PostgreSQL",
             "poolSize": 3,
             "isEncrypted": true,
