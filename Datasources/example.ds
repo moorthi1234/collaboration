@@ -1,0 +1,49 @@
+{
+    "webServiceContent": [],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\example.ds",
+    "content": {
+        "datasourceType": 1,
+        "modifiedOn": "2021-03-24 22:13:41.72",
+        "datasourceProperties": {
+            "baseUrl": "/api",
+            "datasourceId": "72c23430-d96a-4746-9b7d-bb825789e1ce",
+            "id": "fc499510-23b9-457b-be31-e65f9f3b76a8",
+            "webserviceFunctions": [{
+                "modifiedOn": 1616604236911,
+                "webserviceId": "fc499510-23b9-457b-be31-e65f9f3b76a8",
+                "name": "test",
+                "functionProperties": {
+                    "headers": [],
+                    "method": "GET",
+                    "dataType": 0,
+                    "body": "",
+                    "parameters": [
+                        {
+                            "paramLocation": 3,
+                            "type": "Query",
+                            "value": "",
+                            "key": "limit",
+                            "allowOverride": true,
+                            "advance": "limit"
+                        },
+                        {
+                            "paramLocation": 3,
+                            "type": "Query",
+                            "value": "",
+                            "key": "offset",
+                            "allowOverride": true,
+                            "advance": "offset"
+                        }
+                    ]
+                },
+                "id": "95b7a64a-d26c-4916-9d44-bd3b881a6403",
+                "functionUrl": "/rest",
+                "createdOn": 1616604236911
+            }]
+        },
+        "name": "example",
+        "id": "72c23430-d96a-4746-9b7d-bb825789e1ce",
+        "applicationId": "1f4806cb-575a-434d-baa6-d1d451375c39",
+        "createdOn": "2021-03-24 22:13:41.72"
+    }
+}
