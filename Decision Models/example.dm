@@ -1,34 +1,60 @@
 {
     "decisiontable": {
         "modifiedUserName": "policyadmin",
-        "lastModifiedDate": "2021-03-24T16:13:38",
+        "lastModifiedDate": "2021-03-24T16:18:33",
         "displayName": "New Decision Table",
         "hitPolicy": "UNIQUE",
         "description": "Design a new Decision Table by adding inputs and outputs.",
-        "rules": [{
-            "comments": "test",
-            "outputEntry": [{
-                "expressionLanguage": "http://www.omg.org/spec/DMN/20180521/FEEL/",
-                "attributeName": null,
-                "id": null,
-                "text": "25000"
-            }],
-            "inputEntry": [
-                {
-                    "domainName": "input",
-                    "text": "(name = \"moorthi\")"
-                },
-                {
-                    "domainName": "input",
-                    "text": "(age = 30)"
+        "rules": [
+            {
+                "comments": "test2",
+                "outputEntry": [{
+                    "expressionLanguage": "http://www.omg.org/spec/DMN/20180521/FEEL/",
+                    "attributeName": null,
+                    "id": null,
+                    "text": "3000"
+                }],
+                "inputEntry": [
+                    {
+                        "domainName": "input",
+                        "text": "(name = \"vikas\")"
+                    },
+                    {
+                        "domainName": "input",
+                        "text": "(age = 30)"
+                    }
+                ],
+                "operationEntry": {
+                    "isWorkflowCallable": {},
+                    "replaceEntries": [],
+                    "isWebhookCallable": {}
                 }
-            ],
-            "operationEntry": {
-                "isWorkflowCallable": {},
-                "replaceEntries": [],
-                "isWebhookCallable": {}
+            },
+            {
+                "comments": "test",
+                "outputEntry": [{
+                    "expressionLanguage": "http://www.omg.org/spec/DMN/20180521/FEEL/",
+                    "attributeName": null,
+                    "id": null,
+                    "text": "25000"
+                }],
+                "inputEntry": [
+                    {
+                        "domainName": "input",
+                        "text": "(name = \"moorthi\")"
+                    },
+                    {
+                        "domainName": "input",
+                        "text": "(age = 30)"
+                    }
+                ],
+                "operationEntry": {
+                    "isWorkflowCallable": {},
+                    "replaceEntries": [],
+                    "isWebhookCallable": {}
+                }
             }
-        }],
+        ],
         "preferredOrientation": "RULE_AS_ROW",
         "output": [{
             "primitive": false,
