@@ -1,5 +1,5 @@
 function custom(){
-	var queryStr = "select * from prs_users orderby user";
+	var queryStr = "select * from prs_users where user_name = ?";
 	try{
 		$s.query("idp", queryStr);
 			results = $s.queryDb();
