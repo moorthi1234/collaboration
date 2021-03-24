@@ -10,19 +10,36 @@
                 "type": "bpmn:sequenceFlow"
             },
             {
-                "targetRef": "EndEvent_171wpzn",
+                "targetRef": "ScriptTask_1vezox6",
                 "businessProp": {},
                 "name": "",
-                "id": "SequenceFlow_1e3jzyo",
+                "id": "SequenceFlow_6a7a0q",
                 "sourceRef": "UserTask_1gbqjz8",
+                "type": "bpmn:sequenceFlow"
+            },
+            {
+                "targetRef": "EndEvent_4nwusj",
+                "businessProp": {},
+                "name": "",
+                "id": "SequenceFlow_u9eo1t",
+                "sourceRef": "ScriptTask_1vezox6",
                 "type": "bpmn:sequenceFlow"
             }
         ],
+        "scriptTask": {
+            "outgoing": "SequenceFlow_u9eo1t",
+            "incoming": "SequenceFlow_6a7a0q",
+            "businessProp": {"exec-script": "var a;"},
+            "name": "test",
+            "id": "ScriptTask_1vezox6",
+            "type": "bpmn:scriptTask",
+            "events": []
+        },
         "endEvent": {
-            "incoming": "SequenceFlow_1e3jzyo",
+            "incoming": "SequenceFlow_u9eo1t",
             "businessProp": {},
             "name": "End",
-            "id": "EndEvent_171wpzn",
+            "id": "EndEvent_4nwusj",
             "type": "bpmn:endEvent"
         },
         "startEvent": {
@@ -38,39 +55,29 @@
             "id": "StartEvent_12cgrc5",
             "type": "bpmn:startEvent"
         },
-        "id": "Process_j8u6o2",
+        "id": "Process_1921h04",
         "userTask": {
-            "outgoing": "SequenceFlow_1e3jzyo",
+            "outgoing": "SequenceFlow_6a7a0q",
             "incoming": "SequenceFlow_1l42jjk",
             "businessProp": {
                 "assignee-role": {
                     "roleMeta": "",
                     "roleName": "SampleRole",
-                    "actualData": "{\"name\":\"SampleRole.role\",\"type\":14,\"parentName\":\"App Roles\",\"location\":\"/SampleCollabTes/App Roles\",\"properties\":{},\"meta\":null,\"size\":0,\"errorMessage\":null,\"parentId\":null,\"projectId\":\"592b21d3-b6ee-4dce-80f6-b395b87bd639\",\"referenceId\":\"6bb1ae94-9407-4d8d-bb5d-9e94adda9b99\",\"namespaceId\":null,\"content\":null,\"id\":\"428b292b-e3d5-43b4-af7b-c5843bbc5cf6\",\"createdOn\":\"2021-01-07T10:47:15.964+01:00\",\"modifiedOn\":\"2021-01-07T10:47:15.964+01:00\",\"modifiedBy\":null,\"createdBy\":null,\"rolePack\":null,\"contentAsBytes\":null,\"contentAsString\":\"\",\"buildProgress\":false}"
+                    "actualData": "{\"name\":\"SampleRole.role\",\"type\":14,\"parentName\":\"App Roles\",\"location\":\"/collaboration/App Roles\",\"properties\":{\"isWorkspaceReady\":false},\"meta\":null,\"size\":0,\"errorMessage\":null,\"parentId\":\"22352937-ceda-40b2-bbc9-722e86e17ce3\",\"projectId\":\"1f4806cb-575a-434d-baa6-d1d451375c39\",\"referenceId\":\"015e1353-d2b0-46ae-8ae1-7a2dc8c3b94f\",\"namespaceId\":\"22352937-ceda-40b2-bbc9-722e86e17ce3\",\"content\":null,\"id\":\"22352937-ceda-40b2-bbc9-722e86e17ce3\",\"createdOn\":\"2021-03-24T20:43:58.730+05:30\",\"modifiedOn\":\"2021-03-24T20:43:59.050+05:30\",\"modifiedBy\":null,\"createdBy\":null,\"rolePack\":null,\"contentAsString\":\"\",\"contentAsBytes\":null,\"buildProgress\":false}"
                 },
-                "formType": "Custom",
+                "formType": "Existing",
                 "email-body": "Collab%20test%20body",
-                "fromUser": "\"TestUser\"",
-                "form-variables": [{
-                    "ref": "nameRe",
-                    "regex": "",
-                    "default-value": "",
-                    "readonly": false,
-                    "label": "Enter name",
-                    "fieldtype": "Input",
-                    "type": "string",
-                    "mandatory": true,
-                    "errormsg": ""
-                }],
+                "fromUser": "\"TestUser3\"",
+                "form-variables": [],
                 "subject": "\"Collab test subj\"",
-                "form-url-type": "\"\"",
+                "form-url-type": "\"absolute\"",
                 "body-replace-strings": [],
-                "form-url": "\"\"",
+                "form-url": "\"http://localhost:8080/rest/projects/1f4806cb-575a-434d-baa6-d1d451375c39/files/e58b5a0b-4ea4-4a18-8f94-f63200247f52/preview\"",
                 "assignee-type": "Role",
-                "existingForm": "",
+                "existingForm": "{\"name\":\"testIUM.vm\",\"type\":1,\"parentName\":\"UI Models\",\"location\":\"/collaboration/UI Models\",\"properties\":{\"isWorkspaceReady\":true},\"meta\":null,\"size\":9532,\"errorMessage\":null,\"parentId\":\"e58b5a0b-4ea4-4a18-8f94-f63200247f52\",\"projectId\":\"1f4806cb-575a-434d-baa6-d1d451375c39\",\"referenceId\":null,\"namespaceId\":\"e58b5a0b-4ea4-4a18-8f94-f63200247f52\",\"content\":null,\"id\":\"e58b5a0b-4ea4-4a18-8f94-f63200247f52\",\"createdOn\":\"2021-03-24T20:43:58.830+05:30\",\"modifiedOn\":\"2021-03-24T21:14:30.736+05:30\",\"modifiedBy\":null,\"createdBy\":null,\"rolePack\":null,\"contentAsString\":\"\",\"contentAsBytes\":null,\"buildProgress\":true}",
                 "email-type": "text/html",
                 "attribute-references": [],
-                "form-url-helper": "\"\"",
+                "form-url-helper": "{\"id\":\"e58b5a0b-4ea4-4a18-8f94-f63200247f52\",\"projectId\":\"1f4806cb-575a-434d-baa6-d1d451375c39\",\"name\":\"testIUM.vm\",\"fileLocation\":\"/collaboration/UI Models\"}",
                 "formName": "SampleForm",
                 "notify-type": "With Action"
             },
@@ -81,32 +88,44 @@
         }
     },
     "BPMNDiagram": {
-        "bpmnElement": "Process_j8u6o2",
+        "bpmnElement": "Process_1921h04",
         "BPMNPlane": {
             "BPMNShape": [
+                {
+                    "bpmnElement": "ScriptTask_1vezox6",
+                    "Bounds": {
+                        "cx": 480.0000151891881,
+                        "cy": 193.60156554040742,
+                        "x": 403.02001946164904,
+                        "width": 153.95999145507812,
+                        "y": 155.43656462488008,
+                        "height": 76.33000183105469
+                    },
+                    "id": "ScriptTask_1vezox6_ve"
+                },
+                {
+                    "bpmnElement": "EndEvent_4nwusj",
+                    "Bounds": {
+                        "cx": 600.9999866150024,
+                        "cy": 363.76561732529376,
+                        "x": 582.9999866150024,
+                        "width": 36,
+                        "y": 334.28124232529376,
+                        "height": 58.96875
+                    },
+                    "id": "EndEvent_4nwusj_ve"
+                },
                 {
                     "bpmnElement": "StartEvent_12cgrc5",
                     "Bounds": {
                         "cx": 104.00000128149986,
-                        "cy": 193.60156494379044,
+                        "cy": 193.48437744379044,
                         "x": 86.00000128149986,
                         "width": 36,
                         "y": 164.00000244379044,
-                        "height": 59.203125
+                        "height": 58.96875
                     },
                     "id": "StartEvent_12cgrc5_ve"
-                },
-                {
-                    "bpmnElement": "EndEvent_171wpzn",
-                    "Bounds": {
-                        "cx": 464.0000066459179,
-                        "cy": 352.39844231004827,
-                        "x": 446.0000066459179,
-                        "width": 36,
-                        "y": 322.79687981004827,
-                        "height": 59.203125
-                    },
-                    "id": "EndEvent_171wpzn_ve"
                 },
                 {
                     "bpmnElement": "UserTask_1gbqjz8",
@@ -129,16 +148,16 @@
                             "y": "182.00000244379044"
                         },
                         {
-                            "x": "151.0100027769804",
+                            "x": "151.01000279948119",
                             "y": "182.00000244379044"
                         },
                         {
-                            "x": "151.0100027769804",
-                            "y": "260.9999990844727"
+                            "x": "151.01000279948119",
+                            "y": "260.99999443285157"
                         },
                         {
-                            "x": "180.02000427246094",
-                            "y": "260.9999990844727"
+                            "x": "180.0200043174625",
+                            "y": "260.99999443285157"
                         }
                     ],
                     "bpmnElement": "SequenceFlow_1l42jjk",
@@ -151,24 +170,46 @@
                             "y": "260.99999443285157"
                         },
                         {
-                            "x": "389.9900021587313",
+                            "x": "368.5000118895558",
                             "y": "260.99999443285157"
                         },
                         {
-                            "x": "389.9900021587313",
-                            "y": "340.7968797683716"
+                            "x": "368.5000118895558",
+                            "y": "193.60156462488007"
                         },
                         {
-                            "x": "446",
-                            "y": "340.7968797683716"
+                            "x": "403.02001946164904",
+                            "y": "193.60156462488007"
                         }
                     ],
-                    "bpmnElement": "SequenceFlow_1e3jzyo",
-                    "id": "SequenceFlow_1e3jzyo_ve"
+                    "bpmnElement": "SequenceFlow_6a7a0q",
+                    "id": "SequenceFlow_6a7a0q_ve"
+                },
+                {
+                    "waypoint": [
+                        {
+                            "x": "556.980019461649",
+                            "y": "193.60156462488007"
+                        },
+                        {
+                            "x": "569.9900030383258",
+                            "y": "193.60156462488007"
+                        },
+                        {
+                            "x": "569.9900030383258",
+                            "y": "352.28124232529376"
+                        },
+                        {
+                            "x": "582.9999866150024",
+                            "y": "352.28124232529376"
+                        }
+                    ],
+                    "bpmnElement": "SequenceFlow_u9eo1t",
+                    "id": "SequenceFlow_u9eo1t_ve"
                 }
             ]
         },
-        "id": "Process_j8u6o2_ve"
+        "id": "Process_1921h04_ve"
     },
     "collaboration": {}
 }
