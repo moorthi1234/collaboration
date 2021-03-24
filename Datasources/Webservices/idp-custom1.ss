@@ -1,5 +1,5 @@
 function custom1(){
-	var queryStr = "select * from prs_users where user_name = ?";
+	var queryStr = "select * from prs_users where password = ?";
 	try{
 		$s.query("idp", queryStr);
 			results = $s.queryDb();
