@@ -158,7 +158,7 @@
         "decisionModelNamespace": "sample.asg.test",
         "tables": ["sample.asg.test.decisiontable"],
         "typeLanguage": "http://www.omg.org/spec/DMN/20180521/FEEL/",
-        "namespace": "http://asg.com/policies/dmn/v1/",
+        "namespace": "sample.asg.test",
         "name": "model",
         "id": "sample.asg.test.model",
         "category": null
