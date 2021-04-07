@@ -1,0 +1,14 @@
+{"content": {
+    "datasourceType": 4,
+    "datasourceProperties": {
+        "skillId": "b7234463-0717-4d21-a6f4-5bb988c8043d",
+        "providerId": "03b22020-c61a-4f3d-aadc-4a5b3d4bc443",
+        "skillCode": "ASG_TRANSLATE",
+        "providerInstance": "65fc85bf-7981-4d15-a6b3-a9eda6361e78",
+        "id": "b85d2665-3403-4371-9530-54afe141426b",
+        "engineId": "0d9809cc-2a19-494a-9973-b98e7d6737fd"
+    },
+    "name": "translate",
+    "id": "32c9b452-7a4b-4f94-ad6e-ea79f45d5460",
+    "applicationId": "a4c760dd-29ee-4f13-b7f7-8fafe227fb16"
+}}
