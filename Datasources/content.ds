@@ -6,10 +6,10 @@
         "modifiedOn": "2021-04-07 07:00:16.828",
         "datasourceProperties": {
             "contentServiceVersion": "10.1",
-            "defaultConfig": {"repoIds": ["76371A4A-0AA5-428C-B3CC-6D5B0F5B23DD"]},
+            "defaultConfig": {"repoIds": ["3AB539A1-FB96-4354-AE9E-6889A3603085"]},
             "datasourceId": "227d9cd9-54c6-4cc6-9643-0307a879da75",
             "id": "0e0f8058-a3fd-4f9d-905e-5f10f8cdf826",
-            "discoveryUrl": "http://mobidmowblyt01v.mobid.dev.asgint.loc:8081/mobius/rest/resources"
+            "discoveryUrl": "http://mobidmowblyt01v.mobid.dev.asgint.loc:8080/mobius/rest/resources"
         },
         "name": "content",
         "id": "227d9cd9-54c6-4cc6-9643-0307a879da75",
