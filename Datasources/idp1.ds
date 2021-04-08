@@ -1,0 +1,33 @@
+{
+    "webServiceContent": [{"content": "{\"modifiedOn\":\"2021-04-07 06:54:17.221\",\"methodProperties\":{\"parameters\":[],\"customQuery\":\"select * from prs_users where password =hello;\",\"advance\":[{\"value\":\"\",\"key\":\"limit\"},{\"value\":\"\",\"key\":\"offset\"}]},\"name\":\"custom3\",\"datasourceId\":\"d3088bbe-a7ff-4458-a1e7-2ee7bf234a39\",\"id\":\"39821916-596f-4a7a-a13b-bdf7c0c57bbd\",\"functionMeta\":{\"name\":\"custom3\",\"functionUrl\":\"/custom3\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[],\"dataType\":2}},\"type\":1,\"datasourceName\":\"idp1\",\"createdOn\":\"2021-04-07 06:54:17.221\"}"}],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\idp.ds",
+    "content": {
+        "datasourceType": 0,
+        "modifiedOn": "2021-04-07 06:54:16.221",
+        "datasourceProperties": {
+            "connectionMeta": {
+                "instance": "",
+                "port": "5432",
+                "host": "localhost",
+                "driverName": "Thin",
+                "connectionType": false,
+                "sid": ""
+            },
+            "password": "root",
+            "databaseName": "idp",
+            "jdbcString": "jdbc:postgresql://localhost:5432/idp",
+            "vendor": "PostgreSQL",
+            "poolSize": 3,
+            "isEncrypted": true,
+            "isJdbcUrl": false,
+            "datasourceId": "d3088bbe-a7ff-4458-a1e7-2ee7bf234a39",
+            "active": 1,
+            "id": "42ceed4a-4b69-4acb-939d-e4f1b41570b2",
+            "username": "postgres"
+        },
+        "name": "idp1",
+        "id": "d3088bbe-a7ff-4458-a1e7-2ee7bf234a39",
+        "applicationId": "a4c760dd-29ee-4f13-b7f7-8fafe227fb16",
+        "createdOn": "2021-04-07 06:54:16.221"
+    }
+}
