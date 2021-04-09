@@ -9,9 +9,9 @@
             "datasourceId": "a84ca7af-14a7-4988-ba60-c1c790509bfb",
             "id": "a9c99b98-8760-4e87-9458-4b827a1fd367",
             "webserviceFunctions": [{
-                "modifiedOn": 1617952027759,
+                "modifiedOn": 1617953164815,
                 "webserviceId": "a9c99b98-8760-4e87-9458-4b827a1fd367",
-                "name": "test",
+                "name": "test2",
                 "functionProperties": {
                     "headers": [],
                     "method": "GET",
