@@ -1,0 +1,11 @@
+{"content": {
+    "datasourceType": 1,
+    "datasourceProperties": {
+        "baseUrl": "/api",
+        "datasourceId": "914285e2-4b50-4708-b67c-e8f6c6b290d7",
+        "id": "9afb5ce9-52e5-49dd-a3be-64f6ffd3d4c6"
+    },
+    "name": "example",
+    "id": "914285e2-4b50-4708-b67c-e8f6c6b290d7",
+    "applicationId": "a4c760dd-29ee-4f13-b7f7-8fafe227fb16"
+}}
