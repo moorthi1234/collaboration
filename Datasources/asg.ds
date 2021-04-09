@@ -1,0 +1,83 @@
+{
+    "webServiceContent": [],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\asg.ds",
+    "content": {
+        "datasourceType": 1,
+        "modifiedOn": "2021-04-09 09:45:27.36",
+        "datasourceProperties": {
+            "baseUrl": "/api",
+            "datasourceId": "7a218f92-6b03-4a77-be51-c7135ca69342",
+            "id": "39bd2ec9-6614-463c-a666-1384efb1f556",
+            "webserviceFunctions": [
+                {
+                    "modifiedOn": 1617954353019,
+                    "webserviceId": "39bd2ec9-6614-463c-a666-1384efb1f556",
+                    "name": "yes1",
+                    "functionProperties": {
+                        "headers": [],
+                        "method": "GET",
+                        "dataType": 0,
+                        "body": "",
+                        "parameters": [
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "limit",
+                                "allowOverride": true,
+                                "advance": "limit"
+                            },
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "offset",
+                                "allowOverride": true,
+                                "advance": "offset"
+                            }
+                        ]
+                    },
+                    "id": "c651d31f-b2b4-4462-8785-ca27dbd7683f",
+                    "functionUrl": "/rest",
+                    "createdOn": 1617954353019
+                },
+                {
+                    "modifiedOn": 1617954341251,
+                    "webserviceId": "39bd2ec9-6614-463c-a666-1384efb1f556",
+                    "name": "yes",
+                    "functionProperties": {
+                        "headers": [],
+                        "method": "GET",
+                        "dataType": 0,
+                        "body": "",
+                        "parameters": [
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "limit",
+                                "allowOverride": true,
+                                "advance": "limit"
+                            },
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "offset",
+                                "allowOverride": true,
+                                "advance": "offset"
+                            }
+                        ]
+                    },
+                    "id": "7c2796a9-e386-4a57-980e-91c0b7904127",
+                    "functionUrl": "/rest",
+                    "createdOn": 1617954341251
+                }
+            ]
+        },
+        "name": "asg",
+        "id": "7a218f92-6b03-4a77-be51-c7135ca69342",
+        "applicationId": "a4c760dd-29ee-4f13-b7f7-8fafe227fb16",
+        "createdOn": "2021-04-09 09:45:27.36"
+    }
+}
