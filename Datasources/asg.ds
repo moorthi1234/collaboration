@@ -104,6 +104,38 @@
                     "id": "cec90540-16d4-4910-a7bd-169348af29e4",
                     "functionUrl": "/rest",
                     "createdOn": 1618488368287
+                },
+                {
+                    "modifiedOn": 1618490420713,
+                    "webserviceId": "761c8225-db74-411f-8c91-ecfc73a1929c",
+                    "name": "example",
+                    "functionProperties": {
+                        "headers": [],
+                        "method": "GET",
+                        "dataType": 0,
+                        "body": "",
+                        "parameters": [
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "limit",
+                                "allowOverride": true,
+                                "advance": "limit"
+                            },
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "offset",
+                                "allowOverride": true,
+                                "advance": "offset"
+                            }
+                        ]
+                    },
+                    "id": "797b5dda-7152-423a-9192-6b4b2539e381",
+                    "functionUrl": "/example",
+                    "createdOn": 1618490420713
                 }
             ]
         },
