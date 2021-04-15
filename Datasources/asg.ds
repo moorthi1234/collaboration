@@ -3,15 +3,15 @@
     "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\asg.ds",
     "content": {
         "datasourceType": 1,
-        "modifiedOn": "2021-04-09 12:20:08.468",
+        "modifiedOn": "2021-04-15 14:06:08.113",
         "datasourceProperties": {
             "baseUrl": "/api",
-            "datasourceId": "f6c069a6-4913-4257-93c3-d35287cd19d5",
-            "id": "aa6d9b7c-4243-4903-936f-fece8ebb1f3f",
+            "datasourceId": "c66a8436-0774-455a-b54d-9827f516f108",
+            "id": "761c8225-db74-411f-8c91-ecfc73a1929c",
             "webserviceFunctions": [
                 {
-                    "modifiedOn": 1617963609183,
-                    "webserviceId": "aa6d9b7c-4243-4903-936f-fece8ebb1f3f",
+                    "modifiedOn": 1618488368206,
+                    "webserviceId": "761c8225-db74-411f-8c91-ecfc73a1929c",
                     "name": "yes",
                     "functionProperties": {
                         "headers": [],
@@ -37,13 +37,45 @@
                             }
                         ]
                     },
-                    "id": "0b8005c6-e465-4b39-be74-6eb41ba9ade6",
+                    "id": "3b147413-3155-4279-9ba2-151d3f9128d1",
                     "functionUrl": "/rest",
-                    "createdOn": 1617963609183
+                    "createdOn": 1618488368206
                 },
                 {
-                    "modifiedOn": 1617963608667,
-                    "webserviceId": "aa6d9b7c-4243-4903-936f-fece8ebb1f3f",
+                    "modifiedOn": 1618488445684,
+                    "webserviceId": "761c8225-db74-411f-8c91-ecfc73a1929c",
+                    "name": "sample",
+                    "functionProperties": {
+                        "headers": [],
+                        "method": "GET",
+                        "dataType": 0,
+                        "body": "",
+                        "parameters": [
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "limit",
+                                "allowOverride": true,
+                                "advance": "limit"
+                            },
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "offset",
+                                "allowOverride": true,
+                                "advance": "offset"
+                            }
+                        ]
+                    },
+                    "id": "c721d4a2-93ae-4cdc-aea8-49b1399e9bb7",
+                    "functionUrl": "/sample",
+                    "createdOn": 1618488445684
+                },
+                {
+                    "modifiedOn": 1618488368287,
+                    "webserviceId": "761c8225-db74-411f-8c91-ecfc73a1929c",
                     "name": "yes1",
                     "functionProperties": {
                         "headers": [],
@@ -69,15 +101,15 @@
                             }
                         ]
                     },
-                    "id": "ad274925-6f8d-49d6-9483-56befc18aa5d",
+                    "id": "cec90540-16d4-4910-a7bd-169348af29e4",
                     "functionUrl": "/rest",
-                    "createdOn": 1617963608667
+                    "createdOn": 1618488368287
                 }
             ]
         },
         "name": "asg",
-        "id": "f6c069a6-4913-4257-93c3-d35287cd19d5",
-        "applicationId": "da6d7074-3b48-42e3-b5b6-92a8b597d783",
-        "createdOn": "2021-04-09 12:20:08.468"
+        "id": "c66a8436-0774-455a-b54d-9827f516f108",
+        "applicationId": "c4865abc-5a8c-4859-9610-42b6c505e839",
+        "createdOn": "2021-04-15 14:06:08.113"
     }
 }
