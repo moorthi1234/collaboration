@@ -1,0 +1,11 @@
+{"content": {
+    "datasourceType": 3,
+    "datasourceProperties": {
+        "baseUrl": "/cws",
+        "datasourceId": "a9b3deac-8209-427d-95e4-ce546cb124dd",
+        "id": "3c7e25f5-135d-471c-9882-4d2d817c94be"
+    },
+    "name": "cws",
+    "id": "a9b3deac-8209-427d-95e4-ce546cb124dd",
+    "applicationId": "fd24e37e-cec1-4983-a9fe-e74bbeb0747b"
+}}
