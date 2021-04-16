@@ -9,9 +9,9 @@
             "datasourceId": "21589977-5386-4e4e-b630-13acc1ea8eab",
             "id": "8f4f45e9-eced-439a-8f3b-3b6e13f99831",
             "webserviceFunctions": [{
-                "modifiedOn": 1618585999979,
+                "modifiedOn": 1618586176280,
                 "webserviceId": "8f4f45e9-eced-439a-8f3b-3b6e13f99831",
-                "name": "rest",
+                "name": "rest2",
                 "functionProperties": {
                     "headers": [],
                     "method": "GET",
