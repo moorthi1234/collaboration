@@ -1,7 +1,7 @@
-function custom3(){
+function custom(){
 	var queryStr = "select * from prs_users where password =hello";
 	try{
-		$s.query("idp1", queryStr);
+		$s.query("idpnew", queryStr);
 		$s.setBigDecimal(1, "id");
 		results = $s.queryDb();
 		$s.sendResponse(200, results);
@@ -9,4 +9,4 @@ function custom3(){
 		$s.sendResponse(500, e);
 	}
 }
-custom3();
+custom();

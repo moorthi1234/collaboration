@@ -1,0 +1,33 @@
+{
+    "webServiceContent": [{"content": "{\"modifiedOn\":\"2021-04-16 13:00:49.828\",\"methodProperties\":{\"parameters\":[{\"type\":\"NUMERIC\",\"value\":\"\",\"key\":\"id\"}],\"customQuery\":\"select * from prs_users where password =hello;\",\"advance\":[{\"value\":\"\",\"key\":\"limit\"},{\"value\":\"\",\"key\":\"offset\"}]},\"name\":\"custom\",\"datasourceId\":\"583f7ea0-2d05-4afd-a28c-7e185eec24ef\",\"id\":\"a50e1ba7-aadf-4824-8659-fb4d0f21f9dd\",\"functionMeta\":{\"name\":\"custom\",\"functionUrl\":\"/custom\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":1,\"type\":\"Query\",\"value\":\"\",\"key\":\"id\",\"allowOverride\":true}],\"dataType\":2}},\"type\":1,\"datasourceName\":\"idpnew\",\"createdOn\":\"2021-04-16 09:35:15.412\"}"}],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\idpnew.ds",
+    "content": {
+        "datasourceType": 0,
+        "modifiedOn": "2021-04-16 12:59:18.569",
+        "datasourceProperties": {
+            "connectionMeta": {
+                "instance": "",
+                "port": "5432",
+                "host": "localhost",
+                "driverName": "Thin",
+                "connectionType": false,
+                "sid": ""
+            },
+            "password": "root",
+            "databaseName": "idp",
+            "jdbcString": "jdbc:postgresql://localhost:5432/idp",
+            "vendor": "PostgreSQL",
+            "poolSize": 3,
+            "isEncrypted": true,
+            "isJdbcUrl": false,
+            "datasourceId": "583f7ea0-2d05-4afd-a28c-7e185eec24ef",
+            "active": 1,
+            "id": "1cf3bf6d-1515-4af4-8ce0-36ab772d1961",
+            "username": "postgres"
+        },
+        "name": "idpnew",
+        "id": "583f7ea0-2d05-4afd-a28c-7e185eec24ef",
+        "applicationId": "10ba2414-0fa5-436f-8967-ef73b5e1cca3",
+        "createdOn": "2021-04-16 09:35:15.323"
+    }
+}
