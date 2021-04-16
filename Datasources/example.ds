@@ -1,17 +1,17 @@
 {
     "webServiceContent": [],
-    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\sample.ds",
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\example.ds",
     "content": {
         "datasourceType": 1,
-        "modifiedOn": "2021-04-16 19:24:41.21",
+        "modifiedOn": "2021-04-16 19:26:53.925",
         "datasourceProperties": {
-            "baseUrl": "/jjj",
-            "datasourceId": "478f1492-a0a5-4d9e-af7f-7480384b3849",
-            "id": "c8211a10-fbd2-4297-9ddd-9329c2049890",
+            "baseUrl": "/example",
+            "datasourceId": "ba18b7f9-875a-40c5-9cc1-a482fc1b9fe1",
+            "id": "4e834739-9f67-43f1-bfea-8bc0b9eace82",
             "webserviceFunctions": [{
-                "modifiedOn": 1618581290980,
-                "webserviceId": "c8211a10-fbd2-4297-9ddd-9329c2049890",
-                "name": "jjj",
+                "modifiedOn": 1618581428938,
+                "webserviceId": "4e834739-9f67-43f1-bfea-8bc0b9eace82",
+                "name": "rest",
                 "functionProperties": {
                     "headers": [],
                     "method": "GET",
@@ -36,14 +36,14 @@
                         }
                     ]
                 },
-                "id": "f89f8987-f02a-49d9-ae45-014cd5b2f9b2",
-                "functionUrl": "/j",
-                "createdOn": 1618581290980
+                "id": "a32cf858-b6d8-4e84-83a4-0d9c49bf7235",
+                "functionUrl": "/rest",
+                "createdOn": 1618581428938
             }]
         },
-        "name": "sample",
-        "id": "478f1492-a0a5-4d9e-af7f-7480384b3849",
+        "name": "example",
+        "id": "ba18b7f9-875a-40c5-9cc1-a482fc1b9fe1",
         "applicationId": "10ba2414-0fa5-436f-8967-ef73b5e1cca3",
-        "createdOn": "2021-04-16 19:24:41.209"
+        "createdOn": "2021-04-16 19:26:53.925"
     }
 }
