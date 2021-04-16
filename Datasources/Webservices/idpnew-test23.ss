@@ -1,4 +1,4 @@
-function test2(){
+function test23(){
 	var queryStr = "INSERT INTO \"public\".\"tdata\" (\"name\",\"city\",\"mobile\") VALUES(?,?,?)";
 	try{
 		$s.query("idpnew", queryStr);
@@ -11,4 +11,4 @@ function test2(){
 		$s.sendResponse(500, e);
 	}
 }
-test2();
+test23();
