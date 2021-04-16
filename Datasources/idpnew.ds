@@ -1,9 +1,9 @@
 {
-    "webServiceContent": [{"content": "{\"modifiedOn\":\"2021-04-16 13:00:49.828\",\"methodProperties\":{\"parameters\":[{\"type\":\"NUMERIC\",\"value\":\"\",\"key\":\"id\"}],\"customQuery\":\"select * from prs_users where password =hello;\",\"advance\":[{\"value\":\"\",\"key\":\"limit\"},{\"value\":\"\",\"key\":\"offset\"}]},\"name\":\"custom\",\"datasourceId\":\"583f7ea0-2d05-4afd-a28c-7e185eec24ef\",\"id\":\"a50e1ba7-aadf-4824-8659-fb4d0f21f9dd\",\"functionMeta\":{\"name\":\"custom\",\"functionUrl\":\"/custom\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":1,\"type\":\"Query\",\"value\":\"\",\"key\":\"id\",\"allowOverride\":true}],\"dataType\":2}},\"type\":1,\"datasourceName\":\"idpnew\",\"createdOn\":\"2021-04-16 09:35:15.412\"}"}],
-    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\idpnew.ds",
+    "webServiceContent": [],
+    "filePath": "C:\\Studio_Workspace1\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\idpnew.ds",
     "content": {
         "datasourceType": 0,
-        "modifiedOn": "2021-04-16 12:59:18.569",
+        "modifiedOn": "2021-04-16 13:07:03.813",
         "datasourceProperties": {
             "connectionMeta": {
                 "instance": "",
@@ -20,14 +20,14 @@
             "poolSize": 3,
             "isEncrypted": true,
             "isJdbcUrl": false,
-            "datasourceId": "583f7ea0-2d05-4afd-a28c-7e185eec24ef",
+            "datasourceId": "12c86427-4232-46b6-b11f-80c6015b2c1c",
             "active": 1,
-            "id": "1cf3bf6d-1515-4af4-8ce0-36ab772d1961",
+            "id": "e18b0907-6005-43b6-8923-4b28fd9320f7",
             "username": "postgres"
         },
         "name": "idpnew",
-        "id": "583f7ea0-2d05-4afd-a28c-7e185eec24ef",
-        "applicationId": "10ba2414-0fa5-436f-8967-ef73b5e1cca3",
-        "createdOn": "2021-04-16 09:35:15.323"
+        "id": "12c86427-4232-46b6-b11f-80c6015b2c1c",
+        "applicationId": "77f7b9cc-3050-44c3-b53c-4ee5f0edb80f",
+        "createdOn": "2021-04-16 13:07:03.813"
     }
 }
