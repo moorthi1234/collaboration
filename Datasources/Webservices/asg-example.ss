@@ -23,7 +23,7 @@ function example(){
 		}
 		queryString = queryString.slice(0, -1);
 		url += queryString;
-		var response = $s.delete(url, null, null, JSON.stringify(headers));
+		var response = $s.get(url, null, JSON.stringify(headers));
 		$s.setStatus(200);
 		$s.setData(response);
 	} catch(e){
