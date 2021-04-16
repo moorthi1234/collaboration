@@ -1,9 +1,9 @@
 {
-    "webServiceContent": [{"content": "{\"modifiedOn\":\"2021-04-09 12:20:09.742\",\"methodProperties\":{\"parameters\":[],\"customQuery\":\"select * from prs_users where password =hello;\",\"advance\":[{\"value\":\"\",\"key\":\"limit\"},{\"value\":\"\",\"key\":\"offset\"}]},\"name\":\"custom3\",\"datasourceId\":\"63073592-f19e-438a-ad3a-b8f9dd53beb3\",\"id\":\"c94bfb51-ba5e-4ded-8af3-3e82da6b68a1\",\"functionMeta\":{\"name\":\"custom3\",\"functionUrl\":\"/custom3\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[],\"dataType\":2}},\"type\":1,\"datasourceName\":\"idp1\",\"createdOn\":\"2021-04-09 12:20:09.742\"}"}],
+    "webServiceContent": [{"content": "{\"modifiedOn\":\"2021-04-16 09:35:15.412\",\"methodProperties\":{\"parameters\":[],\"customQuery\":\"select * from prs_users where password =hello;\",\"advance\":[{\"value\":\"\",\"key\":\"limit\"},{\"value\":\"\",\"key\":\"offset\"}]},\"name\":\"custom3\",\"datasourceId\":\"583f7ea0-2d05-4afd-a28c-7e185eec24ef\",\"id\":\"a50e1ba7-aadf-4824-8659-fb4d0f21f9dd\",\"functionMeta\":{\"name\":\"custom3\",\"functionUrl\":\"/custom3\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[],\"dataType\":2}},\"type\":1,\"datasourceName\":\"idp1\",\"createdOn\":\"2021-04-16 09:35:15.412\"}"}],
     "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\idp1.ds",
     "content": {
         "datasourceType": 0,
-        "modifiedOn": "2021-04-09 12:20:09.492",
+        "modifiedOn": "2021-04-16 09:35:15.323",
         "datasourceProperties": {
             "connectionMeta": {
                 "instance": "",
@@ -14,20 +14,20 @@
                 "sid": ""
             },
             "password": "root",
-            "databaseName": "idp",
-            "jdbcString": "jdbc:postgresql://localhost:5432/idp",
+            "databaseName": "idp1",
+            "jdbcString": "jdbc:postgresql://localhost:5432/idp1",
             "vendor": "PostgreSQL",
             "poolSize": 3,
             "isEncrypted": true,
             "isJdbcUrl": false,
-            "datasourceId": "63073592-f19e-438a-ad3a-b8f9dd53beb3",
+            "datasourceId": "583f7ea0-2d05-4afd-a28c-7e185eec24ef",
             "active": 1,
-            "id": "a29ccd1d-761d-4ce4-b481-4eb160f30cbb",
+            "id": "1cf3bf6d-1515-4af4-8ce0-36ab772d1961",
             "username": "postgres"
         },
         "name": "idp1",
-        "id": "63073592-f19e-438a-ad3a-b8f9dd53beb3",
-        "applicationId": "da6d7074-3b48-42e3-b5b6-92a8b597d783",
-        "createdOn": "2021-04-09 12:20:09.492"
+        "id": "583f7ea0-2d05-4afd-a28c-7e185eec24ef",
+        "applicationId": "10ba2414-0fa5-436f-8967-ef73b5e1cca3",
+        "createdOn": "2021-04-16 09:35:15.323"
     }
 }
