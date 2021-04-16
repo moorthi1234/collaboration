@@ -1,9 +1,9 @@
 {
-    "webServiceContent": [],
-    "filePath": "C:\\Studio_Workspace1\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\idpnew.ds",
+    "webServiceContent": [{"content": "{\"modifiedOn\":\"2021-04-16 13:48:31.652\",\"methodProperties\":{\"operation\":\"INSERT\",\"columns\":[{\"name\":\"name\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"city\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false},{\"name\":\"mobile\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"tdata\",\"selected\":false}},\"name\":\"insertTdata\",\"datasourceId\":\"583f7ea0-2d05-4afd-a28c-7e185eec24ef\",\"id\":\"d25ad5b2-2be1-49fb-9af4-e6ec2ba195b7\",\"functionMeta\":{\"name\":\"insertTdata\",\"functionUrl\":\"/insertTdata\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"POST\",\"body\":[{\"paramLocation\":1,\"type\":\"\",\"value\":\"String\",\"key\":\"name\",\"allowOverride\":true},{\"paramLocation\":1,\"type\":\"\",\"value\":\"String\",\"key\":\"city\",\"allowOverride\":true},{\"paramLocation\":1,\"type\":\"\",\"value\":\"String\",\"key\":\"mobile\",\"allowOverride\":true}],\"parameters\":[],\"dataType\":2}},\"type\":0,\"datasourceName\":\"idpnew\",\"createdOn\":\"2021-04-16 13:48:31.652\"}"}],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\idpnew.ds",
     "content": {
         "datasourceType": 0,
-        "modifiedOn": "2021-04-16 13:07:03.813",
+        "modifiedOn": "2021-04-16 12:59:18.569",
         "datasourceProperties": {
             "connectionMeta": {
                 "instance": "",
@@ -20,14 +20,14 @@
             "poolSize": 3,
             "isEncrypted": true,
             "isJdbcUrl": false,
-            "datasourceId": "12c86427-4232-46b6-b11f-80c6015b2c1c",
+            "datasourceId": "583f7ea0-2d05-4afd-a28c-7e185eec24ef",
             "active": 1,
-            "id": "e18b0907-6005-43b6-8923-4b28fd9320f7",
+            "id": "1cf3bf6d-1515-4af4-8ce0-36ab772d1961",
             "username": "postgres"
         },
         "name": "idpnew",
-        "id": "12c86427-4232-46b6-b11f-80c6015b2c1c",
-        "applicationId": "77f7b9cc-3050-44c3-b53c-4ee5f0edb80f",
-        "createdOn": "2021-04-16 13:07:03.813"
+        "id": "583f7ea0-2d05-4afd-a28c-7e185eec24ef",
+        "applicationId": "10ba2414-0fa5-436f-8967-ef73b5e1cca3",
+        "createdOn": "2021-04-16 09:35:15.323"
     }
 }
