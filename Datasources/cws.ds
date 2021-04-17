@@ -1,0 +1,50 @@
+{
+    "webServiceContent": [],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\cws.ds",
+    "content": {
+        "datasourceType": 3,
+        "modifiedOn": "2021-04-17 16:02:50.745",
+        "datasourceProperties": {
+            "baseUrl": "/cws",
+            "datasourceId": "ab7c413d-4ce6-4af9-a863-b370ed5a5f37",
+            "id": "889b1620-42d6-43cb-a943-9cbd19ccff39",
+            "webserviceFunctions": [{
+                "compositeWebserviceId": "889b1620-42d6-43cb-a943-9cbd19ccff39",
+                "modifiedOn": 1618655578121,
+                "name": "method",
+                "functionProperties": {
+                    "headers": [],
+                    "method": "GET",
+                    "dataType": 0,
+                    "compositeWorkflow": "",
+                    "body": "",
+                    "parameters": [
+                        {
+                            "paramLocation": 3,
+                            "type": "Query",
+                            "value": "",
+                            "key": "limit",
+                            "allowOverride": true,
+                            "advance": "limit"
+                        },
+                        {
+                            "paramLocation": 3,
+                            "type": "Query",
+                            "value": "",
+                            "key": "offset",
+                            "allowOverride": true,
+                            "advance": "offset"
+                        }
+                    ]
+                },
+                "id": "70e86287-fe0e-44a1-8002-c8565222e075",
+                "functionUrl": "/method",
+                "createdOn": 1618655578121
+            }]
+        },
+        "name": "cws",
+        "id": "ab7c413d-4ce6-4af9-a863-b370ed5a5f37",
+        "applicationId": "10ba2414-0fa5-436f-8967-ef73b5e1cca3",
+        "createdOn": "2021-04-17 16:02:50.745"
+    }
+}
