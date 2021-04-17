@@ -9,9 +9,9 @@
             "datasourceId": "962d08e6-b281-46aa-9379-8306dc731702",
             "id": "2a45cd1b-db98-402e-acc8-65627c40e41c",
             "webserviceFunctions": [{
-                "modifiedOn": 1618643611379,
+                "modifiedOn": 1618643714460,
                 "webserviceId": "2a45cd1b-db98-402e-acc8-65627c40e41c",
-                "name": "upload",
+                "name": "upload2",
                 "functionProperties": {
                     "headers": [],
                     "method": "GET",

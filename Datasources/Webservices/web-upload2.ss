@@ -1,8 +1,8 @@
-function upload(){
+function upload2(){
 	try{
 		var datasourceDetails = JSON.parse(""+$s.getDatasourceDetails("web"));
 		var baseUrl = datasourceDetails.datasourceProperties.baseUrl;
-		var functionDetails = JSON.parse(""+$s.getFunctionDetails(datasourceDetails.datasourceProperties.id, "upload"));
+		var functionDetails = JSON.parse(""+$s.getFunctionDetails(datasourceDetails.datasourceProperties.id, "upload2"));
 		var url = functionDetails.functionUrl ? baseUrl + functionDetails.functionUrl : baseUrl;
 		var headers = {};
 		var functionHeaders = functionDetails.functionProperties.headers;
@@ -30,4 +30,4 @@ function upload(){
 		$s.sendResponse(500, e);
 	}
 }
-upload();
+upload2();
