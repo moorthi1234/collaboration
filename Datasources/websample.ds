@@ -8,38 +8,7 @@
             "baseUrl": "/api",
             "datasourceId": "74f3391c-d3db-4ec1-8027-5c02d42bfc49",
             "id": "1e737b34-18b9-410f-a81a-2db61b4809e4",
-            "webserviceFunctions": [{
-                "modifiedOn": 1618649717773,
-                "webserviceId": "1e737b34-18b9-410f-a81a-2db61b4809e4",
-                "name": "rest123",
-                "functionProperties": {
-                    "headers": [],
-                    "method": "GET",
-                    "dataType": 0,
-                    "body": "",
-                    "parameters": [
-                        {
-                            "paramLocation": 3,
-                            "type": "Query",
-                            "value": "",
-                            "key": "limit",
-                            "allowOverride": true,
-                            "advance": "limit"
-                        },
-                        {
-                            "paramLocation": 3,
-                            "type": "Query",
-                            "value": "",
-                            "key": "offset",
-                            "allowOverride": true,
-                            "advance": "offset"
-                        }
-                    ]
-                },
-                "id": "7d8625a7-e076-4dd2-9a18-63464840a660",
-                "functionUrl": "/rest123",
-                "createdOn": 1618649491240
-            }]
+            "webserviceFunctions": []
         },
         "name": "websample",
         "id": "74f3391c-d3db-4ec1-8027-5c02d42bfc49",
