@@ -8,7 +8,38 @@
             "baseUrl": "/api",
             "datasourceId": "74f3391c-d3db-4ec1-8027-5c02d42bfc49",
             "id": "1e737b34-18b9-410f-a81a-2db61b4809e4",
-            "webserviceFunctions": []
+            "webserviceFunctions": [{
+                "modifiedOn": 1618654069911,
+                "webserviceId": "1e737b34-18b9-410f-a81a-2db61b4809e4",
+                "name": "demo",
+                "functionProperties": {
+                    "headers": [],
+                    "method": "GET",
+                    "dataType": 0,
+                    "body": "",
+                    "parameters": [
+                        {
+                            "paramLocation": 3,
+                            "type": "Query",
+                            "value": "",
+                            "key": "limit",
+                            "allowOverride": true,
+                            "advance": "limit"
+                        },
+                        {
+                            "paramLocation": 3,
+                            "type": "Query",
+                            "value": "",
+                            "key": "offset",
+                            "allowOverride": true,
+                            "advance": "offset"
+                        }
+                    ]
+                },
+                "id": "132d3a0c-751b-44e5-b799-21975cc6755b",
+                "functionUrl": "/upload",
+                "createdOn": 1618654069911
+            }]
         },
         "name": "websample",
         "id": "74f3391c-d3db-4ec1-8027-5c02d42bfc49",
