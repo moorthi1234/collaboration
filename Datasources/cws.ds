@@ -44,8 +44,8 @@
                 },
                 {
                     "compositeWebserviceId": "889b1620-42d6-43cb-a943-9cbd19ccff39",
-                    "modifiedOn": 1618655675363,
-                    "name": "method1",
+                    "modifiedOn": 1618658550983,
+                    "name": "method12",
                     "functionProperties": {
                         "headers": [],
                         "method": "GET",
@@ -72,7 +72,7 @@
                         ]
                     },
                     "id": "41d06f80-8714-4e23-ac0f-8f16e7c8e29f",
-                    "functionUrl": "/method1",
+                    "functionUrl": "/method12",
                     "createdOn": 1618655675363
                 }
             ]
