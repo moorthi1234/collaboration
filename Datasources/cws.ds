@@ -8,39 +8,74 @@
             "baseUrl": "/cws",
             "datasourceId": "ab7c413d-4ce6-4af9-a863-b370ed5a5f37",
             "id": "889b1620-42d6-43cb-a943-9cbd19ccff39",
-            "webserviceFunctions": [{
-                "compositeWebserviceId": "889b1620-42d6-43cb-a943-9cbd19ccff39",
-                "modifiedOn": 1618655578121,
-                "name": "method",
-                "functionProperties": {
-                    "headers": [],
-                    "method": "GET",
-                    "dataType": 0,
-                    "compositeWorkflow": "",
-                    "body": "",
-                    "parameters": [
-                        {
-                            "paramLocation": 3,
-                            "type": "Query",
-                            "value": "",
-                            "key": "limit",
-                            "allowOverride": true,
-                            "advance": "limit"
-                        },
-                        {
-                            "paramLocation": 3,
-                            "type": "Query",
-                            "value": "",
-                            "key": "offset",
-                            "allowOverride": true,
-                            "advance": "offset"
-                        }
-                    ]
+            "webserviceFunctions": [
+                {
+                    "compositeWebserviceId": "889b1620-42d6-43cb-a943-9cbd19ccff39",
+                    "modifiedOn": 1618655578121,
+                    "name": "method",
+                    "functionProperties": {
+                        "headers": [],
+                        "method": "GET",
+                        "dataType": 0,
+                        "compositeWorkflow": "",
+                        "body": "",
+                        "parameters": [
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "limit",
+                                "allowOverride": true,
+                                "advance": "limit"
+                            },
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "offset",
+                                "allowOverride": true,
+                                "advance": "offset"
+                            }
+                        ]
+                    },
+                    "id": "70e86287-fe0e-44a1-8002-c8565222e075",
+                    "functionUrl": "/method",
+                    "createdOn": 1618655578121
                 },
-                "id": "70e86287-fe0e-44a1-8002-c8565222e075",
-                "functionUrl": "/method",
-                "createdOn": 1618655578121
-            }]
+                {
+                    "compositeWebserviceId": "889b1620-42d6-43cb-a943-9cbd19ccff39",
+                    "modifiedOn": 1618655675363,
+                    "name": "method1",
+                    "functionProperties": {
+                        "headers": [],
+                        "method": "GET",
+                        "dataType": 0,
+                        "compositeWorkflow": "",
+                        "body": "",
+                        "parameters": [
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "limit",
+                                "allowOverride": true,
+                                "advance": "limit"
+                            },
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "offset",
+                                "allowOverride": true,
+                                "advance": "offset"
+                            }
+                        ]
+                    },
+                    "id": "41d06f80-8714-4e23-ac0f-8f16e7c8e29f",
+                    "functionUrl": "/method1",
+                    "createdOn": 1618655675363
+                }
+            ]
         },
         "name": "cws",
         "id": "ab7c413d-4ce6-4af9-a863-b370ed5a5f37",
