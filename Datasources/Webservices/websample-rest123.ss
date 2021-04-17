@@ -1,8 +1,8 @@
-function rest(){
+function rest123(){
 	try{
 		var datasourceDetails = JSON.parse(""+$s.getDatasourceDetails("websample"));
 		var baseUrl = datasourceDetails.datasourceProperties.baseUrl;
-		var functionDetails = JSON.parse(""+$s.getFunctionDetails(datasourceDetails.datasourceProperties.id, "rest"));
+		var functionDetails = JSON.parse(""+$s.getFunctionDetails(datasourceDetails.datasourceProperties.id, "rest123"));
 		var url = functionDetails.functionUrl ? baseUrl + functionDetails.functionUrl : baseUrl;
 		var headers = {};
 		var functionHeaders = functionDetails.functionProperties.headers;
@@ -30,4 +30,4 @@ function rest(){
 		$s.sendResponse(500, e);
 	}
 }
-rest();
+rest123();
