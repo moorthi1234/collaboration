@@ -3,15 +3,15 @@
     "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\cws.ds",
     "content": {
         "datasourceType": 3,
-        "modifiedOn": "2021-04-17 16:02:50.745",
+        "modifiedOn": "2021-04-18 11:40:40.076",
         "datasourceProperties": {
             "baseUrl": "/cws",
-            "datasourceId": "ab7c413d-4ce6-4af9-a863-b370ed5a5f37",
-            "id": "889b1620-42d6-43cb-a943-9cbd19ccff39",
+            "datasourceId": "53a1f526-21dd-406e-b4b0-e29fe2077a47",
+            "id": "bf72a86e-6045-48dc-a496-c25dec5d4b9b",
             "webserviceFunctions": [
                 {
-                    "compositeWebserviceId": "889b1620-42d6-43cb-a943-9cbd19ccff39",
-                    "modifiedOn": 1618655578121,
+                    "compositeWebserviceId": "bf72a86e-6045-48dc-a496-c25dec5d4b9b",
+                    "modifiedOn": 1618738840153,
                     "name": "method",
                     "functionProperties": {
                         "headers": [],
@@ -38,48 +38,39 @@
                             }
                         ]
                     },
-                    "id": "70e86287-fe0e-44a1-8002-c8565222e075",
+                    "id": "087e89a9-a8a4-422b-91d7-a6bf757dda66",
                     "functionUrl": "/method",
-                    "createdOn": 1618655578121
+                    "createdOn": 1618738840153
                 },
                 {
-                    "compositeWebserviceId": "889b1620-42d6-43cb-a943-9cbd19ccff39",
-                    "modifiedOn": 1618658550983,
-                    "name": "method12",
+                    "compositeWebserviceId": "bf72a86e-6045-48dc-a496-c25dec5d4b9b",
+                    "modifiedOn": 1618740885844,
+                    "name": "cws1",
                     "functionProperties": {
-                        "headers": [],
-                        "method": "GET",
+                        "headers": [{
+                            "value": "value1",
+                            "key": "key1",
+                            "allowOverride": true
+                        }],
+                        "method": "POST",
                         "dataType": 0,
-                        "compositeWorkflow": "",
-                        "body": "",
-                        "parameters": [
-                            {
-                                "paramLocation": 3,
-                                "type": "Query",
-                                "value": "",
-                                "key": "limit",
-                                "allowOverride": true,
-                                "advance": "limit"
-                            },
-                            {
-                                "paramLocation": 3,
-                                "type": "Query",
-                                "value": "",
-                                "key": "offset",
-                                "allowOverride": true,
-                                "advance": "offset"
-                            }
-                        ]
+                        "compositeWorkflow": "{\"collaboration\":{},\"process\":{\"id\":\"Process_1\",\"startEvent\":{\"id\":\"StartEvent_zb0kx8\",\"name\":\"Start\",\"businessProp\":{},\"type\":\"bpmn:startEvent\",\"outgoing\":\"SequenceFlow_8yho1r\"},\"functionalTask\":{\"id\":\"FunctionalTask_7qedqb\",\"name\":\"\",\"businessProp\":{},\"events\":[],\"type\":\"bpmn:functionalTask\",\"outgoing\":\"SequenceFlow_erzua6\",\"incoming\":\"SequenceFlow_8yho1r\"},\"endEvent\":{\"id\":\"EndEvent_7g0pyn\",\"name\":\"End\",\"businessProp\":{\"headers\":[],\"response\":\"Ok\",\"responsecode\":\"200\"},\"type\":\"bpmn:endEvent\",\"incoming\":\"SequenceFlow_erzua6\"},\"sequenceFlow\":[{\"id\":\"SequenceFlow_8yho1r\",\"sourceRef\":\"StartEvent_zb0kx8\",\"targetRef\":\"FunctionalTask_7qedqb\",\"businessProp\":{},\"type\":\"bpmn:sequenceFlow\",\"name\":\"\"},{\"id\":\"SequenceFlow_erzua6\",\"sourceRef\":\"FunctionalTask_7qedqb\",\"targetRef\":\"EndEvent_7g0pyn\",\"businessProp\":{},\"type\":\"bpmn:sequenceFlow\",\"name\":\"\"}]},\"BPMNDiagram\":{\"BPMNPlane\":{\"BPMNEdge\":[{\"id\":\"SequenceFlow_8yho1r_ve\",\"waypoint\":[{\"x\":\"134.0000029206276\",\"y\":\"100.00000244379044\"},{\"x\":\"175.5000014603138\",\"y\":\"100.00000244379044\"},{\"x\":\"175.5000014603138\",\"y\":\"98.00000331878663\"},{\"x\":\"217\",\"y\":\"98.00000331878663\"}],\"bpmnElement\":\"SequenceFlow_8yho1r\"},{\"id\":\"SequenceFlow_erzua6_ve\",\"waypoint\":[{\"x\":\"387.00000646710396\",\"y\":\"98.00000656783594\"},{\"x\":\"402.50000371038914\",\"y\":\"98.00000656783594\"},{\"x\":\"402.50000371038914\",\"y\":\"221\"},{\"x\":\"418.0000009536743\",\"y\":\"221\"}],\"bpmnElement\":\"SequenceFlow_erzua6\"}],\"BPMNShape\":[{\"id\":\"StartEvent_zb0kx8_ve\",\"Bounds\":{\"x\":98.0000029206276,\"y\":82.00000244379044,\"cx\":116.0000029206276,\"cy\":111.33593994379044,\"width\":36,\"height\":58.671875},\"bpmnElement\":\"StartEvent_zb0kx8\"},{\"id\":\"FunctionalTask_7qedqb_ve\",\"Bounds\":{\"x\":217.00000646710396,\"y\":77.02000656783594,\"cx\":302.00000646710396,\"cy\":98.00000611007226,\"width\":170,\"height\":41.959999084472656},\"bpmnElement\":\"FunctionalTask_7qedqb\"},{\"id\":\"EndEvent_7g0pyn_ve\",\"Bounds\":{\"x\":418.00001245737076,\"y\":203.00000604987144,\"cx\":436.00001245737076,\"cy\":232.33594354987144,\"width\":36,\"height\":58.671875},\"bpmnElement\":\"EndEvent_7g0pyn\"}]},\"id\":\"Process_1_ve\",\"bpmnElement\":\"Process_1\"}}",
+                        "body": "{\"name\":\"value\"}",
+                        "parameters": [{
+                            "type": "Query",
+                            "value": "pv1",
+                            "key": "p1",
+                            "allowOverride": true
+                        }]
                     },
-                    "id": "41d06f80-8714-4e23-ac0f-8f16e7c8e29f",
-                    "functionUrl": "/method12",
-                    "createdOn": 1618655675363
+                    "id": "104a8be2-6ffd-48d5-a23a-06b4b5cfaeed",
+                    "createdOn": 1618740885844
                 }
             ]
         },
         "name": "cws",
-        "id": "ab7c413d-4ce6-4af9-a863-b370ed5a5f37",
-        "applicationId": "10ba2414-0fa5-436f-8967-ef73b5e1cca3",
-        "createdOn": "2021-04-17 16:02:50.745"
+        "id": "53a1f526-21dd-406e-b4b0-e29fe2077a47",
+        "applicationId": "250ee88f-d164-43b6-89dc-f9e6278ddbf8",
+        "createdOn": "2021-04-18 11:40:40.076"
     }
 }
