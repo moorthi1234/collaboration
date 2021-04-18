@@ -1,0 +1,14 @@
+{"content": {
+    "datasourceType": 4,
+    "datasourceProperties": {
+        "skillId": "397907e3-e1c0-442e-aee6-4a7333b0aa32",
+        "providerId": "bef1b93c-f39c-45af-8dad-c4bbeae7ca97",
+        "skillCode": "ASG_SENTIMENT",
+        "providerInstance": "1a5d933c-2c95-432f-8dbf-51d72fd106fc",
+        "id": "0fe04dd4-7ee5-455f-8d70-2ffb5562df52",
+        "engineId": "b7db7b73-7792-47b8-abeb-d31cd8425d35"
+    },
+    "name": "aiskillone",
+    "id": "23e0c3b3-5dc1-4744-8ea7-19de5dd94c13",
+    "applicationId": "250ee88f-d164-43b6-89dc-f9e6278ddbf8"
+}}
