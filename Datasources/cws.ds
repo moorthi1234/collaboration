@@ -60,7 +60,7 @@
                 },
                 {
                     "compositeWebserviceId": "d0b9ebd1-2bcf-42aa-bb6a-c130182dbc8c",
-                    "modifiedOn": 1618741337325,
+                    "modifiedOn": 1618750061970,
                     "name": "cws1",
                     "functionProperties": {
                         "headers": [{
@@ -71,7 +71,7 @@
                         "method": "POST",
                         "dataType": 0,
                         "compositeWorkflow": "{\"collaboration\":{},\"process\":{\"id\":\"Process_1\",\"startEvent\":{\"id\":\"StartEvent_zb0kx8\",\"name\":\"Start\",\"businessProp\":{},\"type\":\"bpmn:startEvent\",\"outgoing\":\"SequenceFlow_8yho1r\"},\"functionalTask\":{\"id\":\"FunctionalTask_7qedqb\",\"name\":\"\",\"businessProp\":{},\"events\":[],\"type\":\"bpmn:functionalTask\",\"outgoing\":\"SequenceFlow_erzua6\",\"incoming\":\"SequenceFlow_8yho1r\"},\"endEvent\":{\"id\":\"EndEvent_7g0pyn\",\"name\":\"End\",\"businessProp\":{\"headers\":[],\"response\":\"Ok\",\"responsecode\":\"200\"},\"type\":\"bpmn:endEvent\",\"incoming\":\"SequenceFlow_erzua6\"},\"sequenceFlow\":[{\"id\":\"SequenceFlow_8yho1r\",\"sourceRef\":\"StartEvent_zb0kx8\",\"targetRef\":\"FunctionalTask_7qedqb\",\"businessProp\":{},\"type\":\"bpmn:sequenceFlow\",\"name\":\"\"},{\"id\":\"SequenceFlow_erzua6\",\"sourceRef\":\"FunctionalTask_7qedqb\",\"targetRef\":\"EndEvent_7g0pyn\",\"businessProp\":{},\"type\":\"bpmn:sequenceFlow\",\"name\":\"\"}]},\"BPMNDiagram\":{\"BPMNPlane\":{\"BPMNEdge\":[{\"id\":\"SequenceFlow_8yho1r_ve\",\"waypoint\":[{\"x\":\"134.0000029206276\",\"y\":\"100.00000244379044\"},{\"x\":\"175.5000014603138\",\"y\":\"100.00000244379044\"},{\"x\":\"175.5000014603138\",\"y\":\"98.00000331878663\"},{\"x\":\"217\",\"y\":\"98.00000331878663\"}],\"bpmnElement\":\"SequenceFlow_8yho1r\"},{\"id\":\"SequenceFlow_erzua6_ve\",\"waypoint\":[{\"x\":\"387.00000646710396\",\"y\":\"98.00000656783594\"},{\"x\":\"402.50000371038914\",\"y\":\"98.00000656783594\"},{\"x\":\"402.50000371038914\",\"y\":\"221\"},{\"x\":\"418.0000009536743\",\"y\":\"221\"}],\"bpmnElement\":\"SequenceFlow_erzua6\"}],\"BPMNShape\":[{\"id\":\"StartEvent_zb0kx8_ve\",\"Bounds\":{\"x\":98.0000029206276,\"y\":82.00000244379044,\"cx\":116.0000029206276,\"cy\":111.33593994379044,\"width\":36,\"height\":58.671875},\"bpmnElement\":\"StartEvent_zb0kx8\"},{\"id\":\"FunctionalTask_7qedqb_ve\",\"Bounds\":{\"x\":217.00000646710396,\"y\":77.02000656783594,\"cx\":302.00000646710396,\"cy\":98.00000611007226,\"width\":170,\"height\":41.959999084472656},\"bpmnElement\":\"FunctionalTask_7qedqb\"},{\"id\":\"EndEvent_7g0pyn_ve\",\"Bounds\":{\"x\":418.00001245737076,\"y\":203.00000604987144,\"cx\":436.00001245737076,\"cy\":232.33594354987144,\"width\":36,\"height\":58.671875},\"bpmnElement\":\"EndEvent_7g0pyn\"}]},\"id\":\"Process_1_ve\",\"bpmnElement\":\"Process_1\"}}",
-                        "body": "{\"name\":\"value\"}",
+                        "body": "{\"city\":\"cityvalue\"}",
                         "parameters": [{
                             "type": "Query",
                             "value": "pv1",

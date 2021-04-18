@@ -3,17 +3,17 @@
     "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\content.ds",
     "content": {
         "datasourceType": 2,
-        "modifiedOn": "2021-04-18 11:40:40.012",
+        "modifiedOn": "2021-04-18 11:20:47.992",
         "datasourceProperties": {
             "contentServiceVersion": "10.1",
             "defaultConfig": {"repoIds": []},
-            "datasourceId": "70e08efb-48e5-4122-9f5e-f07700e9644f",
-            "id": "86ad5057-3fe5-4589-8fac-a37a6199b4eb",
-            "discoveryUrl": "http://mobidmowblyt01v.mobid.dev.asgint.loc:8080/mobius/rest/resources"
+            "datasourceId": "5e093ef6-fe36-423b-be1d-c0b087d1b03f",
+            "id": "8cf1be7a-b19b-46af-910f-95285da443f8",
+            "discoveryUrl": "http://mobidmowblyt01v.mobid.dev.asgint.loc:8083/mobius/rest/resources"
         },
         "name": "content",
-        "id": "70e08efb-48e5-4122-9f5e-f07700e9644f",
-        "applicationId": "250ee88f-d164-43b6-89dc-f9e6278ddbf8",
-        "createdOn": "2021-04-18 11:40:40.012"
+        "id": "5e093ef6-fe36-423b-be1d-c0b087d1b03f",
+        "applicationId": "2b0e5541-1d86-4f0f-b098-8645cc50484f",
+        "createdOn": "2021-04-18 11:20:47.992"
     }
 }
