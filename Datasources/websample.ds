@@ -3,47 +3,77 @@
     "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\websample.ds",
     "content": {
         "datasourceType": 1,
-        "modifiedOn": "2021-04-17 14:21:07.143",
+        "modifiedOn": "2021-04-18 11:20:48.743",
         "datasourceProperties": {
             "baseUrl": "/api",
-            "datasourceId": "74f3391c-d3db-4ec1-8027-5c02d42bfc49",
-            "id": "1e737b34-18b9-410f-a81a-2db61b4809e4",
-            "webserviceFunctions": [{
-                "modifiedOn": 1618654069911,
-                "webserviceId": "1e737b34-18b9-410f-a81a-2db61b4809e4",
-                "name": "demo",
-                "functionProperties": {
-                    "headers": [],
-                    "method": "GET",
-                    "dataType": 0,
-                    "body": "",
-                    "parameters": [
-                        {
-                            "paramLocation": 3,
-                            "type": "Query",
-                            "value": "",
-                            "key": "limit",
-                            "allowOverride": true,
-                            "advance": "limit"
-                        },
-                        {
-                            "paramLocation": 3,
-                            "type": "Query",
-                            "value": "",
-                            "key": "offset",
-                            "allowOverride": true,
-                            "advance": "offset"
-                        }
-                    ]
+            "datasourceId": "d94ef4c8-7082-4e46-b0bf-0dd3326bb413",
+            "id": "8125d1e3-ee51-4365-b863-164c86c49f79",
+            "webserviceFunctions": [
+                {
+                    "modifiedOn": 1618739848641,
+                    "webserviceId": "8125d1e3-ee51-4365-b863-164c86c49f79",
+                    "name": "demo",
+                    "functionProperties": {
+                        "headers": [{
+                            "value": "hvalue",
+                            "key": "hkey",
+                            "allowOverride": true
+                        }],
+                        "method": "GET",
+                        "dataType": 0,
+                        "body": "",
+                        "parameters": [
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "limit",
+                                "allowOverride": true,
+                                "advance": "limit"
+                            },
+                            {
+                                "paramLocation": 3,
+                                "type": "Query",
+                                "value": "",
+                                "key": "offset",
+                                "allowOverride": true,
+                                "advance": "offset"
+                            }
+                        ]
+                    },
+                    "id": "a50fc913-e9da-4a6d-a270-4491f3c4e656",
+                    "functionUrl": "/upload",
+                    "createdOn": 1618737648781
                 },
-                "id": "132d3a0c-751b-44e5-b799-21975cc6755b",
-                "functionUrl": "/upload",
-                "createdOn": 1618654069911
-            }]
+                {
+                    "modifiedOn": 1618739779292,
+                    "webserviceId": "8125d1e3-ee51-4365-b863-164c86c49f79",
+                    "name": "newweb",
+                    "functionProperties": {
+                        "headers": [{
+                            "value": "authvalue",
+                            "key": "authkey",
+                            "allowOverride": true
+                        }],
+                        "method": "POST",
+                        "dataType": 0,
+                        "body": "{}",
+                        "parameters": [{
+                            "type": "Query",
+                            "value": "param1value",
+                            "key": "param1",
+                            "allowOverride": true
+                        }]
+                    },
+                    "id": "d27134ca-b519-46fb-a03d-381964dc12ec",
+                    "functionUrl": "/asg.com/newweb",
+                    "createdOn": 1618739779292
+                }
+            ]
         },
         "name": "websample",
-        "id": "74f3391c-d3db-4ec1-8027-5c02d42bfc49",
-        "applicationId": "10ba2414-0fa5-436f-8967-ef73b5e1cca3",
-        "createdOn": "2021-04-17 14:21:07.143"
+        "id": "d94ef4c8-7082-4e46-b0bf-0dd3326bb413",
+        "applicationId": "2b0e5541-1d86-4f0f-b098-8645cc50484f",
+        "createdOn": "2021-04-18 11:20:48.743"
     }
 }

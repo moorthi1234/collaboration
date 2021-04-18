@@ -1,14 +1,20 @@
-{"content": {
-    "datasourceType": 4,
-    "datasourceProperties": {
-        "skillId": "397907e3-e1c0-442e-aee6-4a7333b0aa32",
-        "providerId": "bef1b93c-f39c-45af-8dad-c4bbeae7ca97",
-        "skillCode": "ASG_SENTIMENT",
-        "providerInstance": "1a5d933c-2c95-432f-8dbf-51d72fd106fc",
-        "id": "0fe04dd4-7ee5-455f-8d70-2ffb5562df52",
-        "engineId": "b7db7b73-7792-47b8-abeb-d31cd8425d35"
-    },
-    "name": "aiskillone",
-    "id": "23e0c3b3-5dc1-4744-8ea7-19de5dd94c13",
-    "applicationId": "250ee88f-d164-43b6-89dc-f9e6278ddbf8"
-}}
+{
+    "webServiceContent": [],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\aiskillone.ds",
+    "content": {
+        "datasourceType": 4,
+        "modifiedOn": "2021-04-18 11:48:24.531",
+        "datasourceProperties": {
+            "skillId": "397907e3-e1c0-442e-aee6-4a7333b0aa32",
+            "providerId": "bef1b93c-f39c-45af-8dad-c4bbeae7ca97",
+            "skillCode": "ASG_SENTIMENT",
+            "providerInstance": "047af9bd-593a-432b-9ca4-6f95766e8f1a",
+            "id": "41b86927-9a4b-4c3d-8489-7feb693096f9",
+            "engineId": "b7db7b73-7792-47b8-abeb-d31cd8425d35"
+        },
+        "name": "aiskillone",
+        "id": "5e8ab599-9a7b-4b3a-8bc9-fcb88642e854",
+        "applicationId": "2b0e5541-1d86-4f0f-b098-8645cc50484f",
+        "createdOn": "2021-04-18 11:48:24.531"
+    }
+}
