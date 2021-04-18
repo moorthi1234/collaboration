@@ -3,15 +3,31 @@
     "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\cws.ds",
     "content": {
         "datasourceType": 3,
-        "modifiedOn": "2021-04-18 11:40:40.076",
+        "modifiedOn": "2021-04-18 11:20:48.124",
         "datasourceProperties": {
             "baseUrl": "/cws",
-            "datasourceId": "53a1f526-21dd-406e-b4b0-e29fe2077a47",
-            "id": "bf72a86e-6045-48dc-a496-c25dec5d4b9b",
+            "datasourceId": "9ec1c36c-b891-45c6-8500-a7ed7e1ba9bf",
+            "id": "d0b9ebd1-2bcf-42aa-bb6a-c130182dbc8c",
             "webserviceFunctions": [
                 {
-                    "compositeWebserviceId": "bf72a86e-6045-48dc-a496-c25dec5d4b9b",
-                    "modifiedOn": 1618738840153,
+                    "compositeWebserviceId": "d0b9ebd1-2bcf-42aa-bb6a-c130182dbc8c",
+                    "modifiedOn": 1618741439494,
+                    "name": "newm1",
+                    "functionProperties": {
+                        "headers": [],
+                        "method": "POST",
+                        "dataType": 0,
+                        "compositeWorkflow": "",
+                        "body": "{\"city\":\"cityname\"}",
+                        "parameters": []
+                    },
+                    "id": "33b668e5-a1c3-4aed-b661-ba64c2387a76",
+                    "functionUrl": "/newm1",
+                    "createdOn": 1618741439494
+                },
+                {
+                    "compositeWebserviceId": "d0b9ebd1-2bcf-42aa-bb6a-c130182dbc8c",
+                    "modifiedOn": 1618737648209,
                     "name": "method",
                     "functionProperties": {
                         "headers": [],
@@ -38,18 +54,18 @@
                             }
                         ]
                     },
-                    "id": "087e89a9-a8a4-422b-91d7-a6bf757dda66",
+                    "id": "8c7e7ce3-776e-45a1-83d1-db5437ef2074",
                     "functionUrl": "/method",
-                    "createdOn": 1618738840153
+                    "createdOn": 1618737648209
                 },
                 {
-                    "compositeWebserviceId": "bf72a86e-6045-48dc-a496-c25dec5d4b9b",
-                    "modifiedOn": 1618740885844,
+                    "compositeWebserviceId": "d0b9ebd1-2bcf-42aa-bb6a-c130182dbc8c",
+                    "modifiedOn": 1618741337325,
                     "name": "cws1",
                     "functionProperties": {
                         "headers": [{
-                            "value": "value1",
-                            "key": "key1",
+                            "value": "value2",
+                            "key": "key2",
                             "allowOverride": true
                         }],
                         "method": "POST",
@@ -63,14 +79,14 @@
                             "allowOverride": true
                         }]
                     },
-                    "id": "104a8be2-6ffd-48d5-a23a-06b4b5cfaeed",
-                    "createdOn": 1618740885844
+                    "id": "414f0b5a-f8c4-493b-9abf-19a44967cf55",
+                    "createdOn": 1618741051353
                 }
             ]
         },
         "name": "cws",
-        "id": "53a1f526-21dd-406e-b4b0-e29fe2077a47",
-        "applicationId": "250ee88f-d164-43b6-89dc-f9e6278ddbf8",
-        "createdOn": "2021-04-18 11:40:40.076"
+        "id": "9ec1c36c-b891-45c6-8500-a7ed7e1ba9bf",
+        "applicationId": "2b0e5541-1d86-4f0f-b098-8645cc50484f",
+        "createdOn": "2021-04-18 11:20:48.124"
     }
 }
