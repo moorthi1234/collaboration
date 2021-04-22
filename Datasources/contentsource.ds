@@ -1,0 +1,19 @@
+{
+    "webServiceContent": [],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\contentsource.ds",
+    "content": {
+        "datasourceType": 2,
+        "modifiedOn": "2021-04-22 15:35:40.669",
+        "datasourceProperties": {
+            "contentServiceVersion": "10.1",
+            "defaultConfig": {"repoIds": ["EACD8B59-72D3-47AB-8731-4EB561512DBF"]},
+            "datasourceId": "02425173-03eb-4672-9664-d00f7c039c06",
+            "id": "ee157419-7e2a-413c-86d0-1d08efdaa104",
+            "discoveryUrl": "http://mobidmowblyt01v.mobid.dev.asgint.loc:8081/mobius/rest/resources"
+        },
+        "name": "contentsource",
+        "id": "02425173-03eb-4672-9664-d00f7c039c06",
+        "applicationId": "20d9e44d-adc6-4aa8-a5bf-b974eedc5880",
+        "createdOn": "2021-04-22 15:35:40.669"
+    }
+}
