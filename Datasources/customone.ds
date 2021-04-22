@@ -1,9 +1,9 @@
 {
-    "webServiceContent": [{"content": "{\"modifiedOn\":\"2021-04-22 15:10:44.822\",\"methodProperties\":{\"parameters\":[],\"customQuery\":\"select * from tableone;\",\"advance\":[{\"value\":\"limit\",\"key\":\"limit\"},{\"value\":\"offset\",\"key\":\"offset\"}]},\"name\":\"custommethod\",\"datasourceId\":\"e99e1637-f481-4c02-8ce3-c98b9a67af4f\",\"id\":\"43a29123-80f2-49a9-9bc0-9fe5fee10347\",\"functionMeta\":{\"name\":\"custommethod\",\"functionUrl\":\"/custommethod\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limit\",\"allowOverride\":true,\"advance\":\"limit\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offset\",\"allowOverride\":true,\"advance\":\"offset\"}],\"dataType\":2}},\"type\":1,\"datasourceName\":\"customone\",\"createdOn\":\"2021-04-22 15:10:44.822\"}"}],
+    "webServiceContent": [{"content": "{\"modifiedOn\":\"2021-04-22 06:42:56.695\",\"methodProperties\":{\"parameters\":[],\"customQuery\":\"select id from tableone GROUP BY id ORDER BY id DESC;\",\"advance\":[{\"value\":\"limit\",\"key\":\"limit\"},{\"value\":\"offset\",\"key\":\"offset\"}]},\"name\":\"custommethod\",\"datasourceId\":\"aaed19b8-7968-4fcc-8ac3-a1c5820d86a1\",\"id\":\"81b0565d-524f-4273-92f5-26d2f36bdaa7\",\"functionMeta\":{\"name\":\"custommethod\",\"functionUrl\":\"/custommethod\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limit\",\"allowOverride\":true,\"advance\":\"limit\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offset\",\"allowOverride\":true,\"advance\":\"offset\"}],\"dataType\":2}},\"type\":1,\"datasourceName\":\"customone\",\"createdOn\":\"2021-04-22 06:14:09.966\"}"}],
     "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\customone.ds",
     "content": {
         "datasourceType": 0,
-        "modifiedOn": "2021-04-22 15:09:16.714",
+        "modifiedOn": "2021-04-22 06:14:09.965",
         "datasourceProperties": {
             "connectionMeta": {
                 "instance": "",
@@ -20,14 +20,14 @@
             "poolSize": 3,
             "isEncrypted": true,
             "isJdbcUrl": false,
-            "datasourceId": "e99e1637-f481-4c02-8ce3-c98b9a67af4f",
+            "datasourceId": "aaed19b8-7968-4fcc-8ac3-a1c5820d86a1",
             "active": 1,
-            "id": "48de6fb7-d8b4-4eea-a362-f351fab3e908",
+            "id": "6cdcba0e-aee3-460d-b597-eb76ef812ab5",
             "username": "postgres"
         },
         "name": "customone",
-        "id": "e99e1637-f481-4c02-8ce3-c98b9a67af4f",
-        "applicationId": "20d9e44d-adc6-4aa8-a5bf-b974eedc5880",
-        "createdOn": "2021-04-22 15:09:16.714"
+        "id": "aaed19b8-7968-4fcc-8ac3-a1c5820d86a1",
+        "applicationId": "5f8b770a-5c04-475b-b0e2-f811a430b424",
+        "createdOn": "2021-04-22 06:14:09.965"
     }
 }
