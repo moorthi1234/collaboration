@@ -16,17 +16,26 @@
                     "type": "rpa:sequenceFlow"
                 },
                 {
+                    "targetRef": "ScriptActionWebTask_1pefv04",
+                    "businessProp": {},
+                    "name": "",
+                    "tasktCommandName": "sequenceFlow",
+                    "id": "SequenceFlow_o7t9og",
+                    "sourceRef": "OpenTask_zm9dmi",
+                    "type": "rpa:sequenceFlow"
+                },
+                {
                     "targetRef": "EndEvent_fasdj3",
                     "businessProp": {},
                     "name": "",
                     "tasktCommandName": "sequenceFlow",
-                    "id": "SequenceFlow_1vezw03",
-                    "sourceRef": "OpenTask_zm9dmi",
+                    "id": "SequenceFlow_5s3fpu",
+                    "sourceRef": "ScriptActionWebTask_1pefv04",
                     "type": "rpa:sequenceFlow"
                 }
             ],
             "endEvent": {
-                "incoming": "SequenceFlow_1vezw03",
+                "incoming": "SequenceFlow_5s3fpu",
                 "businessProp": {},
                 "name": "End",
                 "id": "EndEvent_fasdj3",
@@ -34,7 +43,7 @@
             },
             "openTask": {
                 "nodeName": "OpenTask",
-                "outgoing": "SequenceFlow_1vezw03",
+                "outgoing": "SequenceFlow_o7t9og",
                 "incoming": "SequenceFlow_6ht3oe",
                 "businessProp": {"applicationName": "notepad"},
                 "name": "Open Application",
@@ -51,12 +60,53 @@
                 "id": "StartEvent_6kt325",
                 "type": "rpa:startEvent"
             },
-            "id": "Process_1"
+            "id": "Process_1",
+            "scriptActionWebTask": {
+                "nodeName": "ScriptActionWebTask",
+                "outgoing": "SequenceFlow_5s3fpu",
+                "incoming": "SequenceFlow_o7t9og",
+                "businessProp": {
+                    "scriptActionType": "Custom",
+                    "xpathScript": "script",
+                    "elementScript": "script",
+                    "browserInstanceName": "one"
+                },
+                "name": "Script Action",
+                "tasktCommandName": "SeleniumBrowserExecuteScriptCommand",
+                "id": "ScriptActionWebTask_1pefv04",
+                "type": "rpa:scriptActionWebTask",
+                "lineNumber": 2,
+                "events": []
+            }
         },
         "BPMNDiagram": {
             "bpmnElement": "Process_1",
             "BPMNPlane": {
                 "BPMNShape": [
+                    {
+                        "bpmnElement": "EndEvent_fasdj3",
+                        "Bounds": {
+                            "cx": 591.9999998807907,
+                            "cy": 158.99999988138688,
+                            "x": 539.9999998807907,
+                            "width": 104,
+                            "y": 138.02000033915056,
+                            "height": 41.959999084472656
+                        },
+                        "id": "EndEvent_fasdj3_ve"
+                    },
+                    {
+                        "bpmnElement": "OpenTask_zm9dmi",
+                        "Bounds": {
+                            "cx": 301.00000375270884,
+                            "cy": 196.99999999999955,
+                            "x": 192.92000955104868,
+                            "width": 216.1599884033203,
+                            "y": 177.02000045776322,
+                            "height": 39.959999084472656
+                        },
+                        "id": "OpenTask_zm9dmi_ve"
+                    },
                     {
                         "bpmnElement": "StartEvent_6kt325",
                         "Bounds": {
@@ -70,28 +120,16 @@
                         "id": "StartEvent_6kt325_ve"
                     },
                     {
-                        "bpmnElement": "OpenTask_zm9dmi",
+                        "bpmnElement": "ScriptActionWebTask_1pefv04",
                         "Bounds": {
-                            "cx": 234.00001138210337,
-                            "cy": 197.0000090903045,
-                            "x": 125.92001718044321,
+                            "cx": 552,
+                            "cy": 285.0000000298023,
+                            "x": 443.92000579833984,
                             "width": 216.1599884033203,
-                            "y": 177.02000954806817,
+                            "y": 265.020000487566,
                             "height": 39.959999084472656
                         },
-                        "id": "OpenTask_zm9dmi_ve"
-                    },
-                    {
-                        "bpmnElement": "EndEvent_fasdj3",
-                        "Bounds": {
-                            "cx": 234.00000542402267,
-                            "cy": 280.98000729084015,
-                            "x": 182.00000542402267,
-                            "width": 104,
-                            "y": 260.0000077486038,
-                            "height": 41.959999084472656
-                        },
-                        "id": "EndEvent_fasdj3_ve"
+                        "id": "ScriptActionWebTask_1pefv04_ve"
                     }
                 ],
                 "BPMNEdge": [
@@ -102,8 +140,16 @@
                                 "y": "119.98000659763827"
                             },
                             {
-                                "x": "234.0000171804432",
-                                "y": "177.02000954806817"
+                                "x": "234.00000542402267",
+                                "y": "148.50000352770076"
+                            },
+                            {
+                                "x": "301.00000955104866",
+                                "y": "148.50000352770076"
+                            },
+                            {
+                                "x": "301.00000955104866",
+                                "y": "177.02000045776322"
                             }
                         ],
                         "bpmnElement": "SequenceFlow_6ht3oe",
@@ -112,16 +158,46 @@
                     {
                         "waypoint": [
                             {
-                                "x": "234.0000171804432",
-                                "y": "216.98000954806818"
+                                "x": "409.08000955104865",
+                                "y": "197.0000004577632"
                             },
                             {
-                                "x": "234.00000542402267",
-                                "y": "260.0000077486038"
+                                "x": "426.50000767469425",
+                                "y": "197.0000004577632"
+                            },
+                            {
+                                "x": "426.50000767469425",
+                                "y": "285.000000487566"
+                            },
+                            {
+                                "x": "443.92000579833984",
+                                "y": "285.000000487566"
                             }
                         ],
-                        "bpmnElement": "SequenceFlow_1vezw03",
-                        "id": "SequenceFlow_1vezw03_ve"
+                        "bpmnElement": "SequenceFlow_o7t9og",
+                        "id": "SequenceFlow_o7t9og_ve"
+                    },
+                    {
+                        "waypoint": [
+                            {
+                                "x": "552.0000057983399",
+                                "y": "265.020000487566"
+                            },
+                            {
+                                "x": "552.0000057983399",
+                                "y": "222.5000004133583"
+                            },
+                            {
+                                "x": "591.9999998807907",
+                                "y": "222.5000004133583"
+                            },
+                            {
+                                "x": "591.9999998807907",
+                                "y": "179.98000033915056"
+                            }
+                        ],
+                        "bpmnElement": "SequenceFlow_5s3fpu",
+                        "id": "SequenceFlow_5s3fpu_ve"
                     }
                 ]
             },
@@ -154,7 +230,7 @@
         },
         {
             "nodeName": "OpenTask",
-            "outgoing": "SequenceFlow_1vezw03",
+            "outgoing": "SequenceFlow_o7t9og",
             "incoming": "SequenceFlow_6ht3oe",
             "businessProp": {"applicationName": "notepad"},
             "name": "Open Application",
@@ -162,6 +238,23 @@
             "id": "OpenTask_zm9dmi",
             "type": "rpa:openTask",
             "lineNumber": 1,
+            "events": []
+        },
+        {
+            "nodeName": "ScriptActionWebTask",
+            "outgoing": "SequenceFlow_5s3fpu",
+            "incoming": "SequenceFlow_o7t9og",
+            "businessProp": {
+                "scriptActionType": "Custom",
+                "xpathScript": "script",
+                "elementScript": "script",
+                "browserInstanceName": "one"
+            },
+            "name": "Script Action",
+            "tasktCommandName": "SeleniumBrowserExecuteScriptCommand",
+            "id": "ScriptActionWebTask_1pefv04",
+            "type": "rpa:scriptActionWebTask",
+            "lineNumber": 2,
             "events": []
         }
     ]
