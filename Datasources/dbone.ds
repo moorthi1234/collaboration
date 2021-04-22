@@ -1,0 +1,39 @@
+{
+    "webServiceContent": [
+        {"content": "{\"modifiedOn\":\"2021-04-22 14:53:45.486\",\"methodProperties\":{\"operation\":\"INSERT\",\"columns\":[{\"name\":\"id\",\"nullable\":false,\"type\":\"INTEGER\",\"autoIncrement\":false},{\"name\":\"value\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"tableone\",\"selected\":false}},\"name\":\"insertTableone\",\"datasourceId\":\"27302347-45cd-4382-885c-621fdb31b6bb\",\"id\":\"3cae2bed-8d3e-481f-8846-05c36b12571b\",\"functionMeta\":{\"name\":\"insertTableone\",\"functionUrl\":\"/insertTableone\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"POST\",\"body\":[{\"paramLocation\":1,\"type\":\"\",\"value\":\"String\",\"key\":\"id\",\"allowOverride\":true},{\"paramLocation\":1,\"type\":\"\",\"value\":\"String\",\"key\":\"value\",\"allowOverride\":true}],\"parameters\":[],\"dataType\":2}},\"type\":0,\"datasourceName\":\"dbone\",\"createdOn\":\"2021-04-22 14:53:45.486\"}"},
+        {"content": "{\"modifiedOn\":\"2021-04-22 14:53:45.546\",\"methodProperties\":{\"operation\":\"SELECT\",\"columns\":[{\"name\":\"id\",\"nullable\":false,\"type\":\"INTEGER\",\"autoIncrement\":false},{\"name\":\"value\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"tableone\",\"selected\":false}},\"name\":\"selectAllTableone\",\"datasourceId\":\"27302347-45cd-4382-885c-621fdb31b6bb\",\"id\":\"88ab7680-b7d0-4dcc-a908-0dfb8a84a11f\",\"functionMeta\":{\"name\":\"selectAllTableone\",\"functionUrl\":\"/selectAllTableone\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limit\",\"allowOverride\":true,\"advance\":\"limit\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offset\",\"allowOverride\":true,\"advance\":\"offset\"}],\"dataType\":2}},\"type\":0,\"datasourceName\":\"dbone\",\"createdOn\":\"2021-04-22 14:53:45.546\"}"},
+        {"content": "{\"modifiedOn\":\"2021-04-22 14:53:45.639\",\"methodProperties\":{\"filters\":[],\"operation\":\"UPDATE\",\"columns\":[{\"name\":\"id\",\"nullable\":false,\"type\":\"INTEGER\",\"autoIncrement\":false},{\"name\":\"value\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"tableone\",\"selected\":false}},\"name\":\"updateTableone\",\"datasourceId\":\"27302347-45cd-4382-885c-621fdb31b6bb\",\"id\":\"584cf08f-1858-4a8a-b331-8473f3033676\",\"functionMeta\":{\"name\":\"updateTableone\",\"functionUrl\":\"/updateTableone\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"PUT\",\"body\":[{\"paramLocation\":1,\"value\":\"\",\"key\":\"id\",\"allowOverride\":true},{\"paramLocation\":1,\"value\":\"\",\"key\":\"value\",\"allowOverride\":true}],\"parameters\":[],\"dataType\":2}},\"type\":0,\"datasourceName\":\"dbone\",\"createdOn\":\"2021-04-22 14:53:45.639\"}"},
+        {"content": "{\"modifiedOn\":\"2021-04-22 14:53:45.699\",\"methodProperties\":{\"operation\":\"DELETE\",\"table\":{\"schema\":\"public\",\"name\":\"tableone\",\"selected\":false},\"filters\":[]},\"name\":\"deleteTableone\",\"datasourceId\":\"27302347-45cd-4382-885c-621fdb31b6bb\",\"id\":\"d54ebe7f-b7d5-4d32-b59e-61e7908f8661\",\"functionMeta\":{\"name\":\"deleteTableone\",\"functionUrl\":\"/deleteTableone\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"DELETE\",\"body\":[],\"parameters\":[],\"dataType\":2}},\"type\":0,\"datasourceName\":\"dbone\",\"createdOn\":\"2021-04-22 14:53:45.699\"}"},
+        {"content": "{\"modifiedOn\":\"2021-04-22 14:53:45.769\",\"methodProperties\":{\"filters\":[],\"operation\":\"SELECT\",\"columns\":[{\"name\":\"id\",\"nullable\":false,\"type\":\"INTEGER\",\"autoIncrement\":false},{\"name\":\"value\",\"nullable\":false,\"type\":\"VARCHAR\",\"autoIncrement\":false}],\"table\":{\"schema\":\"public\",\"name\":\"tableone\",\"selected\":false}},\"name\":\"selectTableone\",\"datasourceId\":\"27302347-45cd-4382-885c-621fdb31b6bb\",\"id\":\"9e166f33-759e-42e9-aac7-ae84282eeffe\",\"functionMeta\":{\"name\":\"selectTableone\",\"functionUrl\":\"/selectTableone\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limit\",\"allowOverride\":true,\"advance\":\"limit\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offset\",\"allowOverride\":true,\"advance\":\"offset\"}],\"dataType\":2}},\"type\":0,\"datasourceName\":\"dbone\",\"createdOn\":\"2021-04-22 14:53:45.769\"}"}
+    ],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\dbone.ds",
+    "content": {
+        "datasourceType": 0,
+        "modifiedOn": "2021-04-22 14:53:22.963",
+        "datasourceProperties": {
+            "connectionMeta": {
+                "instance": "",
+                "port": "5432",
+                "host": "localhost",
+                "driverName": "Thin",
+                "connectionType": false,
+                "sid": ""
+            },
+            "password": "safirst1",
+            "databaseName": "dbone",
+            "jdbcString": "jdbc:postgresql://localhost:5432/dbone",
+            "vendor": "PostgreSQL",
+            "poolSize": 3,
+            "isEncrypted": true,
+            "isJdbcUrl": false,
+            "datasourceId": "27302347-45cd-4382-885c-621fdb31b6bb",
+            "active": 1,
+            "id": "ee67999d-9abc-4f23-9ddb-6d2a65c33ac3",
+            "username": "postgres"
+        },
+        "name": "dbone",
+        "id": "27302347-45cd-4382-885c-621fdb31b6bb",
+        "applicationId": "20d9e44d-adc6-4aa8-a5bf-b974eedc5880",
+        "createdOn": "2021-04-22 14:53:22.963"
+    }
+}
