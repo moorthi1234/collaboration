@@ -1,17 +1,17 @@
 {
     "webServiceContent": [],
-    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\ContentOne.ds",
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\ContentOneV2.ds",
     "content": {
         "datasourceType": 2,
-        "modifiedOn": "2021-04-22 06:19:05.356",
+        "modifiedOn": "2021-04-22 07:22:43.055",
         "datasourceProperties": {
             "contentServiceVersion": "10.1",
-            "defaultConfig": {"repoIds": ["EACD8B59-72D3-47AB-8731-4EB561512DBF"]},
+            "defaultConfig": {"repoIds": ["DC1B2A07-4783-4BE3-9998-1767AC677B9B"]},
             "datasourceId": "9548da68-1637-4ee8-a86a-97a9624f57a3",
             "id": "a5463a4d-d142-4702-b347-01dbd8679f9d",
             "discoveryUrl": "http://mobidmowblyt01v.mobid.dev.asgint.loc:8081/mobius/rest/resources"
         },
-        "name": "ContentOne",
+        "name": "ContentOneV2",
         "id": "9548da68-1637-4ee8-a86a-97a9624f57a3",
         "applicationId": "5f8b770a-5c04-475b-b0e2-f811a430b424",
         "createdOn": "2021-04-22 06:19:05.356"
