@@ -1,12 +1,19 @@
-{"content": {
-    "datasourceType": 2,
-    "datasourceProperties": {
-        "contentServiceVersion": "11.1",
-        "datasourceId": "30df40cf-1092-47f5-aa5e-effbefcf09b4",
-        "id": "b0045d23-c702-4ee3-96f4-6285deeb6810",
-        "discoveryUrl": "http://mobidmowblyt01v.mobid.dev.asgint.loc:8081/mobius/rest/resources"
-    },
-    "name": "contentsource11",
-    "id": "30df40cf-1092-47f5-aa5e-effbefcf09b4",
-    "applicationId": "20d9e44d-adc6-4aa8-a5bf-b974eedc5880"
-}}
+{
+    "webServiceContent": [],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\contentsource11.ds",
+    "content": {
+        "datasourceType": 2,
+        "modifiedOn": "2021-04-22 15:38:46.4",
+        "datasourceProperties": {
+            "contentServiceVersion": "11.1",
+            "defaultConfig": {"repoIds": ["EACD8B59-72D3-47AB-8731-4EB561512DBF"]},
+            "datasourceId": "30df40cf-1092-47f5-aa5e-effbefcf09b4",
+            "id": "b0045d23-c702-4ee3-96f4-6285deeb6810",
+            "discoveryUrl": "http://mobidmowblyt01v.mobid.dev.asgint.loc:8081/mobius/rest/resources"
+        },
+        "name": "contentsource11",
+        "id": "30df40cf-1092-47f5-aa5e-effbefcf09b4",
+        "applicationId": "20d9e44d-adc6-4aa8-a5bf-b974eedc5880",
+        "createdOn": "2021-04-22 15:38:46.4"
+    }
+}
