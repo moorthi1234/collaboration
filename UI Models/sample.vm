@@ -27,7 +27,7 @@
             "selectedlifecycle": "",
             "lifeCycle": []
         },
-        "checksum_old": 2058177611,
+        "checksum_old": 3753968000,
         "defaultPage": true,
         "validName": true,
         "name": "View1",
@@ -43,7 +43,7 @@
         "checksum_new": 3753968000
     }],
     "assets": [],
-    "id": "6e0287a0-9f26-461b-8c26-c8a670af43dc",
+    "id": "6deee28b-f16c-4ed0-ae18-75877dd28721",
     "validations": {},
     "globalCss": "*{ box-sizing: border-box; } body{margin: 0;} .fix8d0a106e05b2{position: fixed;} "
 }}
