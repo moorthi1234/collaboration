@@ -1,9 +1,12 @@
 {
-    "webServiceContent": [{"content": "{\"modifiedOn\":\"2021-04-22 16:35:21.399\",\"methodProperties\":{\"parameters\":[],\"customQuery\":\"select id from tableone GROUP BY id ORDER BY id DESC;;\",\"advance\":[{\"value\":\"limitone\",\"key\":\"limit\"},{\"value\":\"offsetone\",\"key\":\"offset\"}]},\"name\":\"custommethod\",\"datasourceId\":\"e99e1637-f481-4c02-8ce3-c98b9a67af4f\",\"id\":\"43a29123-80f2-49a9-9bc0-9fe5fee10347\",\"functionMeta\":{\"name\":\"custommethod\",\"functionUrl\":\"/custommethod\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limitone\",\"allowOverride\":true,\"advance\":\"limitone\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offsetone\",\"allowOverride\":true,\"advance\":\"offsetone\"}],\"dataType\":2}},\"type\":1,\"datasourceName\":\"customone\",\"createdOn\":\"2021-04-22 15:10:44.822\"}"}],
+    "webServiceContent": [
+        {"content": "{\"modifiedOn\":\"2021-04-24 06:58:59.604\",\"methodProperties\":{\"parameters\":[],\"customQuery\":\"select * from tablenew;\",\"advance\":[{\"value\":\"limitone\",\"key\":\"limit\"},{\"value\":\"offsetone\",\"key\":\"offset\"}]},\"name\":\"custommethod\",\"datasourceId\":\"0298f478-3bc7-49c5-852f-5b285a2ce01c\",\"id\":\"2aea038e-b45a-4072-8779-368c464723c5\",\"functionMeta\":{\"name\":\"custommethod\",\"functionUrl\":\"/custommethod\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limitone\",\"allowOverride\":true,\"advance\":\"limitone\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offsetone\",\"allowOverride\":true,\"advance\":\"offsetone\"}],\"dataType\":2}},\"type\":1,\"datasourceName\":\"customone\",\"createdOn\":\"2021-04-24 06:35:59.741\"}"},
+        {"content": "{\"modifiedOn\":\"2021-04-24 06:59:37.141\",\"methodProperties\":{\"parameters\":[],\"customQuery\":\"SELECT * FROM SELECTABLE;\",\"advance\":[{\"value\":\"limitone\",\"key\":\"limit\"},{\"value\":\"offsetone\",\"key\":\"offset\"}]},\"name\":\"customnewapril\",\"datasourceId\":\"0298f478-3bc7-49c5-852f-5b285a2ce01c\",\"id\":\"9fa63b43-60f7-42e2-b68a-c896f3b69e6c\",\"functionMeta\":{\"name\":\"customnewapril\",\"functionUrl\":\"/customnewapril\",\"functionProperties\":{\"headers\":[{\"value\":\"application/x-www-form-urlencoded\",\"key\":\"Content-Type\",\"allowOverride\":false}],\"method\":\"GET\",\"body\":[],\"parameters\":[{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"limitone\",\"allowOverride\":true,\"advance\":\"limitone\"},{\"paramLocation\":3,\"type\":\"Query\",\"value\":\"\",\"key\":\"offsetone\",\"allowOverride\":true,\"advance\":\"offsetone\"}],\"dataType\":2}},\"type\":1,\"datasourceName\":\"customone\",\"createdOn\":\"2021-04-24 06:59:37.141\"}"}
+    ],
     "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\customone.ds",
     "content": {
         "datasourceType": 0,
-        "modifiedOn": "2021-04-22 15:09:16.714",
+        "modifiedOn": "2021-04-24 06:35:59.562",
         "datasourceProperties": {
             "connectionMeta": {
                 "instance": "",
@@ -20,14 +23,14 @@
             "poolSize": 3,
             "isEncrypted": true,
             "isJdbcUrl": false,
-            "datasourceId": "e99e1637-f481-4c02-8ce3-c98b9a67af4f",
+            "datasourceId": "0298f478-3bc7-49c5-852f-5b285a2ce01c",
             "active": 1,
-            "id": "48de6fb7-d8b4-4eea-a362-f351fab3e908",
+            "id": "76112c7e-9fff-4e08-8084-8045115c1ae3",
             "username": "postgres"
         },
         "name": "customone",
-        "id": "e99e1637-f481-4c02-8ce3-c98b9a67af4f",
-        "applicationId": "20d9e44d-adc6-4aa8-a5bf-b974eedc5880",
-        "createdOn": "2021-04-22 15:09:16.714"
+        "id": "0298f478-3bc7-49c5-852f-5b285a2ce01c",
+        "applicationId": "c408614a-438f-4e31-84d5-7336ca757e54",
+        "createdOn": "2021-04-24 06:35:59.562"
     }
 }

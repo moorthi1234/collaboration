@@ -3,48 +3,15 @@
     "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\collaboration\\Datasources\\cws.ds",
     "content": {
         "datasourceType": 3,
-        "modifiedOn": "2021-04-22 05:46:30.117",
+        "modifiedOn": "2021-04-24 06:35:59.786",
         "datasourceProperties": {
             "baseUrl": "/cws",
-            "datasourceId": "a7676643-1d60-4cae-b79d-a86fe5ff6d5c",
-            "id": "625a7dfc-4897-490f-82a9-12f8595f3047",
+            "datasourceId": "5b7bb272-9b14-4f54-88e9-f95e11dcb6e9",
+            "id": "69754b84-685c-4389-bbd5-b10b40742368",
             "webserviceFunctions": [
                 {
-                    "compositeWebserviceId": "625a7dfc-4897-490f-82a9-12f8595f3047",
-                    "modifiedOn": 1619095590948,
-                    "name": "method",
-                    "functionProperties": {
-                        "headers": [],
-                        "method": "GET",
-                        "dataType": 0,
-                        "compositeWorkflow": "",
-                        "body": "",
-                        "parameters": [
-                            {
-                                "paramLocation": 3,
-                                "type": "Query",
-                                "value": "",
-                                "key": "limit",
-                                "allowOverride": true,
-                                "advance": "limit"
-                            },
-                            {
-                                "paramLocation": 3,
-                                "type": "Query",
-                                "value": "",
-                                "key": "offset",
-                                "allowOverride": true,
-                                "advance": "offset"
-                            }
-                        ]
-                    },
-                    "id": "911b5fce-9a9e-4b5d-8f52-492646406e13",
-                    "functionUrl": "/method",
-                    "createdOn": 1619095590948
-                },
-                {
-                    "compositeWebserviceId": "625a7dfc-4897-490f-82a9-12f8595f3047",
-                    "modifiedOn": 1619099413037,
+                    "compositeWebserviceId": "69754b84-685c-4389-bbd5-b10b40742368",
+                    "modifiedOn": 1619238959953,
                     "name": "CWSTest1",
                     "functionProperties": {
                         "headers": [],
@@ -54,13 +21,45 @@
                         "body": "{}",
                         "parameters": []
                     },
-                    "id": "282e795d-8e99-4b52-9cf3-65a7385141ba",
+                    "id": "391454d8-d888-4cef-a882-e1e08e6db2bd",
                     "functionUrl": "/cwstest1",
-                    "createdOn": 1619099413037
+                    "createdOn": 1619238959953
                 },
                 {
-                    "compositeWebserviceId": "625a7dfc-4897-490f-82a9-12f8595f3047",
-                    "modifiedOn": 1619095591004,
+                    "compositeWebserviceId": "69754b84-685c-4389-bbd5-b10b40742368",
+                    "modifiedOn": 1619238960236,
+                    "name": "newm1",
+                    "functionProperties": {
+                        "headers": [],
+                        "method": "POST",
+                        "dataType": 0,
+                        "compositeWorkflow": "",
+                        "body": "{\"city\":\"cityname\"}",
+                        "parameters": []
+                    },
+                    "id": "0e8bb241-cd98-4364-9c65-6b76e4f25dca",
+                    "functionUrl": "/newm1",
+                    "createdOn": 1619238960236
+                },
+                {
+                    "compositeWebserviceId": "69754b84-685c-4389-bbd5-b10b40742368",
+                    "modifiedOn": 1619240156403,
+                    "name": "methodapril24",
+                    "functionProperties": {
+                        "headers": [],
+                        "method": "PUT",
+                        "dataType": 0,
+                        "compositeWorkflow": "",
+                        "body": "{\"namekey\":\"namevalue\"}",
+                        "parameters": []
+                    },
+                    "id": "5f5bfa33-6fc6-4aae-b26c-669a642a9746",
+                    "functionUrl": "/methodapril24",
+                    "createdOn": 1619238959893
+                },
+                {
+                    "compositeWebserviceId": "69754b84-685c-4389-bbd5-b10b40742368",
+                    "modifiedOn": 1619238960030,
                     "name": "cws1",
                     "functionProperties": {
                         "headers": [{
@@ -79,30 +78,14 @@
                             "allowOverride": true
                         }]
                     },
-                    "id": "5929e9e2-f90e-493b-b72f-8c7298a537ab",
-                    "createdOn": 1619095591004
-                },
-                {
-                    "compositeWebserviceId": "625a7dfc-4897-490f-82a9-12f8595f3047",
-                    "modifiedOn": 1619095590554,
-                    "name": "newm1",
-                    "functionProperties": {
-                        "headers": [],
-                        "method": "POST",
-                        "dataType": 0,
-                        "compositeWorkflow": "",
-                        "body": "{\"city\":\"cityname\"}",
-                        "parameters": []
-                    },
-                    "id": "e8bc591c-f798-4b5d-9deb-3c0db4b69f67",
-                    "functionUrl": "/newm1",
-                    "createdOn": 1619095590554
+                    "id": "19c94a18-e661-4498-bff0-ca890dc753ac",
+                    "createdOn": 1619238960030
                 }
             ]
         },
         "name": "cws",
-        "id": "a7676643-1d60-4cae-b79d-a86fe5ff6d5c",
-        "applicationId": "5f8b770a-5c04-475b-b0e2-f811a430b424",
-        "createdOn": "2021-04-22 05:46:30.117"
+        "id": "5b7bb272-9b14-4f54-88e9-f95e11dcb6e9",
+        "applicationId": "c408614a-438f-4e31-84d5-7336ca757e54",
+        "createdOn": "2021-04-24 06:35:59.786"
     }
 }
